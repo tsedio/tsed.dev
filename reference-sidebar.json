@@ -1,0 +1,5176 @@
+[
+  {
+    "text": "Core",
+    "items": [
+      {
+        "text": "@tsed/core",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "StoreFn",
+            "link": "/api/core/types/decorators/decorator-store-fn"
+          },
+          {
+            "text": "StoreMerge",
+            "link": "/api/core/types/decorators/decorator-store-merge"
+          },
+          {
+            "text": "StoreSet",
+            "link": "/api/core/types/decorators/decorator-store-set"
+          },
+          {
+            "text": "AnyToPromiseResponseTypes",
+            "link": "/api/core/types/domain/enum-any-to-promise-response-types"
+          },
+          {
+            "text": "AnyPromiseResult",
+            "link": "/api/core/types/domain/interface-any-promise-result"
+          },
+          {
+            "text": "AnyToPromise",
+            "link": "/api/core/types/domain/class-any-to-promise"
+          },
+          {
+            "text": "DecoratorTypes",
+            "link": "/api/core/types/domain/enum-decorator-types"
+          },
+          {
+            "text": "Type",
+            "link": "/api/core/types/domain/interface-type"
+          },
+          {
+            "text": "AbstractType",
+            "link": "/api/core/types/domain/interface-abstract-type"
+          },
+          {
+            "text": "Env",
+            "link": "/api/core/types/domain/enum-env"
+          },
+          {
+            "text": "EnvTypes",
+            "link": "/api/core/types/domain/const-env-types"
+          },
+          {
+            "text": "Metadata",
+            "link": "/api/core/types/domain/class-metadata"
+          },
+          {
+            "text": "Store",
+            "link": "/api/core/types/domain/class-store"
+          },
+          {
+            "text": "UnsupportedDecoratorType",
+            "link": "/api/core/types/errors/class-unsupported-decorator-type"
+          },
+          {
+            "text": "MetadataTypes",
+            "link": "/api/core/types/interfaces/interface-metadata-types"
+          },
+          {
+            "text": "AnyDecorator",
+            "link": "/api/core/types/interfaces/type-any-decorator"
+          },
+          {
+            "text": "DecoratorParameters",
+            "link": "/api/core/types/interfaces/type-decorator-parameters"
+          },
+          {
+            "text": "DecoratorMethodParameters",
+            "link": "/api/core/types/interfaces/type-decorator-method-parameters"
+          },
+          {
+            "text": "StaticMethodDecorator",
+            "link": "/api/core/types/interfaces/type-static-method-decorator"
+          },
+          {
+            "text": "Relation",
+            "link": "/api/core/types/interfaces/type-relation"
+          },
+          {
+            "text": "ValueOf",
+            "link": "/api/core/types/interfaces/type-value-of"
+          },
+          {
+            "text": "catchError",
+            "link": "/api/core/types/utils/function-catch-error"
+          },
+          {
+            "text": "catchAsyncError",
+            "link": "/api/core/types/utils/function-catch-async-error"
+          },
+          {
+            "text": "getRandomId",
+            "link": "/api/core/types/utils/function-get-random-id"
+          },
+          {
+            "text": "decorateMethodsOf",
+            "link": "/api/core/types/utils/decorators/decorator-decorate-methods-of"
+          },
+          {
+            "text": "decoratorArgs",
+            "link": "/api/core/types/utils/decorators/decorator-decorator-args"
+          },
+          {
+            "text": "decoratorTypeOf",
+            "link": "/api/core/types/utils/decorators/decorator-decorator-type-of"
+          },
+          {
+            "text": "inheritedDescriptorOf",
+            "link": "/api/core/types/utils/decorators/decorator-inherited-descriptor-of"
+          },
+          {
+            "text": "useDecorators",
+            "link": "/api/core/types/utils/decorators/decorator-use-decorators"
+          },
+          {
+            "text": "useMethodDecorator",
+            "link": "/api/core/types/utils/decorators/decorator-use-method-decorator"
+          },
+          {
+            "text": "useMethodDecorators",
+            "link": "/api/core/types/utils/decorators/decorator-use-method-decorators"
+          },
+          {
+            "text": "getHostInfoFromPort",
+            "link": "/api/core/types/utils/http/function-get-host-info-from-port"
+          },
+          {
+            "text": "ReturnHostInfoFromPort",
+            "link": "/api/core/types/utils/http/type-return-host-info-from-port"
+          },
+          {
+            "text": "ancestorsOf",
+            "link": "/api/core/types/utils/objects/function-ancestors-of"
+          },
+          {
+            "text": "ancestorOf",
+            "link": "/api/core/types/utils/objects/function-ancestor-of"
+          },
+          {
+            "text": "getInheritedClass",
+            "link": "/api/core/types/utils/objects/function-get-inherited-class"
+          },
+          {
+            "text": "getClass",
+            "link": "/api/core/types/utils/objects/function-get-class"
+          },
+          {
+            "text": "classOf",
+            "link": "/api/core/types/utils/objects/function-class-of"
+          },
+          {
+            "text": "getConstructor",
+            "link": "/api/core/types/utils/objects/function-get-constructor"
+          },
+          {
+            "text": "constructorOf",
+            "link": "/api/core/types/utils/objects/function-constructor-of"
+          },
+          {
+            "text": "cleanObject",
+            "link": "/api/core/types/utils/objects/function-clean-object"
+          },
+          {
+            "text": "createInstance",
+            "link": "/api/core/types/utils/objects/function-create-instance"
+          },
+          {
+            "text": "deepClone",
+            "link": "/api/core/types/utils/objects/function-deep-clone"
+          },
+          {
+            "text": "DeepMergeReducerCB",
+            "link": "/api/core/types/utils/objects/type-deep-merge-reducer-cb"
+          },
+          {
+            "text": "DeepMergeComparatorCB",
+            "link": "/api/core/types/utils/objects/type-deep-merge-comparator-cb"
+          },
+          {
+            "text": "DeepMergeOptions",
+            "link": "/api/core/types/utils/objects/interface-deep-merge-options"
+          },
+          {
+            "text": "mergeReducerBuilder",
+            "link": "/api/core/types/utils/objects/function-merge-reducer-builder"
+          },
+          {
+            "text": "deepMerge",
+            "link": "/api/core/types/utils/objects/function-deep-merge"
+          },
+          {
+            "text": "descriptorOf",
+            "link": "/api/core/types/utils/objects/function-descriptor-of"
+          },
+          {
+            "text": "isMethodDescriptor",
+            "link": "/api/core/types/utils/objects/function-is-method-descriptor"
+          },
+          {
+            "text": "getClassOrSymbol",
+            "link": "/api/core/types/utils/objects/function-get-class-or-symbol"
+          },
+          {
+            "text": "getConstructorArgNames",
+            "link": "/api/core/types/utils/objects/function-get-constructor-arg-names"
+          },
+          {
+            "text": "hasJsonMethod",
+            "link": "/api/core/types/utils/objects/function-has-json-method"
+          },
+          {
+            "text": "getValue",
+            "link": "/api/core/types/utils/objects/function-get-value"
+          },
+          {
+            "text": "isArray",
+            "link": "/api/core/types/utils/objects/function-is-array"
+          },
+          {
+            "text": "isArrowFn",
+            "link": "/api/core/types/utils/objects/function-is-arrow-fn"
+          },
+          {
+            "text": "isBoolean",
+            "link": "/api/core/types/utils/objects/function-is-boolean"
+          },
+          {
+            "text": "isBooleanOrBooleanClass",
+            "link": "/api/core/types/utils/objects/function-is-boolean-or-boolean-class"
+          },
+          {
+            "text": "isClass",
+            "link": "/api/core/types/utils/objects/function-is-class"
+          },
+          {
+            "text": "isCollection",
+            "link": "/api/core/types/utils/objects/function-is-collection"
+          },
+          {
+            "text": "isEmpty",
+            "link": "/api/core/types/utils/objects/function-is-empty"
+          },
+          {
+            "text": "isDate",
+            "link": "/api/core/types/utils/objects/function-is-date"
+          },
+          {
+            "text": "isEnumerable",
+            "link": "/api/core/types/utils/objects/function-is-enumerable"
+          },
+          {
+            "text": "isFunction",
+            "link": "/api/core/types/utils/objects/function-is-function"
+          },
+          {
+            "text": "isInheritedFrom",
+            "link": "/api/core/types/utils/objects/function-is-inherited-from"
+          },
+          {
+            "text": "isBuffer",
+            "link": "/api/core/types/utils/objects/function-is-buffer"
+          },
+          {
+            "text": "isUint8Array",
+            "link": "/api/core/types/utils/objects/function-is-uint-8-array"
+          },
+          {
+            "text": "isMomentObject",
+            "link": "/api/core/types/utils/objects/function-is-moment-object"
+          },
+          {
+            "text": "isNil",
+            "link": "/api/core/types/utils/objects/function-is-nil"
+          },
+          {
+            "text": "isNumber",
+            "link": "/api/core/types/utils/objects/function-is-number"
+          },
+          {
+            "text": "isNumberOrNumberClass",
+            "link": "/api/core/types/utils/objects/function-is-number-or-number-class"
+          },
+          {
+            "text": "isObject",
+            "link": "/api/core/types/utils/objects/function-is-object"
+          },
+          {
+            "text": "isObservable",
+            "link": "/api/core/types/utils/objects/function-is-observable"
+          },
+          {
+            "text": "isClassObject",
+            "link": "/api/core/types/utils/objects/function-is-class-object"
+          },
+          {
+            "text": "isPlainObject",
+            "link": "/api/core/types/utils/objects/function-is-plain-object"
+          },
+          {
+            "text": "isPrimitive",
+            "link": "/api/core/types/utils/objects/function-is-primitive"
+          },
+          {
+            "text": "isPrimitiveClass",
+            "link": "/api/core/types/utils/objects/function-is-primitive-class"
+          },
+          {
+            "text": "isPromise",
+            "link": "/api/core/types/utils/objects/function-is-promise"
+          },
+          {
+            "text": "isObjectID",
+            "link": "/api/core/types/utils/objects/function-is-object-id"
+          },
+          {
+            "text": "isMongooseObject",
+            "link": "/api/core/types/utils/objects/function-is-mongoose-object"
+          },
+          {
+            "text": "isProtectedKey",
+            "link": "/api/core/types/utils/objects/function-is-protected-key"
+          },
+          {
+            "text": "isStream",
+            "link": "/api/core/types/utils/objects/function-is-stream"
+          },
+          {
+            "text": "isRegExp",
+            "link": "/api/core/types/utils/objects/function-is-reg-exp"
+          },
+          {
+            "text": "isSerializable",
+            "link": "/api/core/types/utils/objects/function-is-serializable"
+          },
+          {
+            "text": "isString",
+            "link": "/api/core/types/utils/objects/function-is-string"
+          },
+          {
+            "text": "isStringOrStringClass",
+            "link": "/api/core/types/utils/objects/function-is-string-or-string-class"
+          },
+          {
+            "text": "isSymbol",
+            "link": "/api/core/types/utils/objects/function-is-symbol"
+          },
+          {
+            "text": "isSymbolOrSymbolClass",
+            "link": "/api/core/types/utils/objects/function-is-symbol-or-symbol-class"
+          },
+          {
+            "text": "methodsOf",
+            "link": "/api/core/types/utils/objects/function-methods-of"
+          },
+          {
+            "text": "nameOfClass",
+            "link": "/api/core/types/utils/objects/function-name-of-class"
+          },
+          {
+            "text": "nameOfSymbol",
+            "link": "/api/core/types/utils/objects/function-name-of-symbol"
+          },
+          {
+            "text": "nameOf",
+            "link": "/api/core/types/utils/objects/function-name-of"
+          },
+          {
+            "text": "objectKeys",
+            "link": "/api/core/types/utils/objects/function-object-keys"
+          },
+          {
+            "text": "primitiveOf",
+            "link": "/api/core/types/utils/objects/function-primitive-of"
+          },
+          {
+            "text": "prototypeOf",
+            "link": "/api/core/types/utils/objects/function-prototype-of"
+          },
+          {
+            "text": "setValue",
+            "link": "/api/core/types/utils/objects/function-set-value"
+          },
+          {
+            "text": "ToMapIdentityCB",
+            "link": "/api/core/types/utils/objects/type-to-map-identity-cb"
+          },
+          {
+            "text": "ToMapIdentity",
+            "link": "/api/core/types/utils/objects/type-to-map-identity"
+          },
+          {
+            "text": "toMap",
+            "link": "/api/core/types/utils/objects/function-to-map"
+          },
+          {
+            "text": "uniq",
+            "link": "/api/core/types/utils/objects/function-uniq"
+          },
+          {
+            "text": "uniqBy",
+            "link": "/api/core/types/utils/objects/function-uniq-by"
+          },
+          {
+            "text": "toStringConstructor",
+            "link": "/api/core/types/utils/objects/function-to-string-constructor"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/di",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "AutoInjectable",
+            "link": "/api/di/types/common/decorators/decorator-auto-injectable"
+          },
+          {
+            "text": "Configuration",
+            "link": "/api/di/types/common/decorators/decorator-configuration"
+          },
+          {
+            "text": "bindConstant",
+            "link": "/api/di/types/common/decorators/decorator-bind-constant"
+          },
+          {
+            "text": "Constant",
+            "link": "/api/di/types/common/decorators/decorator-constant"
+          },
+          {
+            "text": "PathType",
+            "link": "/api/di/types/common/decorators/type-path-type"
+          },
+          {
+            "text": "ControllerOptions",
+            "link": "/api/di/types/common/decorators/interface-controller-options"
+          },
+          {
+            "text": "Controller",
+            "link": "/api/di/types/common/decorators/decorator-controller"
+          },
+          {
+            "text": "TransformInjectedProviderCB",
+            "link": "/api/di/types/common/decorators/type-transform-injected-provider-cb"
+          },
+          {
+            "text": "BindInjectablePropertyOpts",
+            "link": "/api/di/types/common/decorators/interface-bind-injectable-property-opts"
+          },
+          {
+            "text": "Inject",
+            "link": "/api/di/types/common/decorators/decorator-inject"
+          },
+          {
+            "text": "Injectable",
+            "link": "/api/di/types/common/decorators/decorator-injectable"
+          },
+          {
+            "text": "getInterceptorOptions",
+            "link": "/api/di/types/common/decorators/decorator-get-interceptor-options"
+          },
+          {
+            "text": "bindIntercept",
+            "link": "/api/di/types/common/decorators/decorator-bind-intercept"
+          },
+          {
+            "text": "Intercept",
+            "link": "/api/di/types/common/decorators/decorator-intercept"
+          },
+          {
+            "text": "Interceptor",
+            "link": "/api/di/types/common/decorators/decorator-interceptor"
+          },
+          {
+            "text": "LazyInject",
+            "link": "/api/di/types/common/decorators/decorator-lazy-inject"
+          },
+          {
+            "text": "OptionalLazyInject",
+            "link": "/api/di/types/common/decorators/decorator-optional-lazy-inject"
+          },
+          {
+            "text": "ModuleOptions",
+            "link": "/api/di/types/common/decorators/interface-module-options"
+          },
+          {
+            "text": "Module",
+            "link": "/api/di/types/common/decorators/decorator-module"
+          },
+          {
+            "text": "OverrideProvider",
+            "link": "/api/di/types/common/decorators/decorator-override-provider"
+          },
+          {
+            "text": "Opts",
+            "link": "/api/di/types/common/decorators/decorator-opts"
+          },
+          {
+            "text": "Scope",
+            "link": "/api/di/types/common/decorators/decorator-scope"
+          },
+          {
+            "text": "Service",
+            "link": "/api/di/types/common/decorators/decorator-service"
+          },
+          {
+            "text": "UseOpts",
+            "link": "/api/di/types/common/decorators/decorator-use-opts"
+          },
+          {
+            "text": "bindValue",
+            "link": "/api/di/types/common/decorators/decorator-bind-value"
+          },
+          {
+            "text": "Value",
+            "link": "/api/di/types/common/decorators/decorator-value"
+          },
+          {
+            "text": "Container",
+            "link": "/api/di/types/common/domain/class-container"
+          },
+          {
+            "text": "ControllerMiddlewares",
+            "link": "/api/di/types/common/domain/interface-controller-middlewares"
+          },
+          {
+            "text": "ControllerProvider",
+            "link": "/api/di/types/common/domain/class-controller-provider"
+          },
+          {
+            "text": "InjectablePropertyType",
+            "link": "/api/di/types/common/domain/enum-injectable-property-type"
+          },
+          {
+            "text": "LocalsContainer",
+            "link": "/api/di/types/common/domain/class-locals-container"
+          },
+          {
+            "text": "ProviderHookCallback",
+            "link": "/api/di/types/common/domain/type-provider-hook-callback"
+          },
+          {
+            "text": "Provider",
+            "link": "/api/di/types/common/domain/class-provider"
+          },
+          {
+            "text": "ProviderScope",
+            "link": "/api/di/types/common/domain/enum-provider-scope"
+          },
+          {
+            "text": "ProviderType",
+            "link": "/api/di/types/common/domain/enum-provider-type"
+          },
+          {
+            "text": "InjectionError",
+            "link": "/api/di/types/common/errors/class-injection-error"
+          },
+          {
+            "text": "InvalidPropertyTokenError",
+            "link": "/api/di/types/common/errors/class-invalid-property-token-error"
+          },
+          {
+            "text": "configuration",
+            "link": "/api/di/types/common/fn/function-configuration"
+          },
+          {
+            "text": "constant",
+            "link": "/api/di/types/common/fn/function-constant"
+          },
+          {
+            "text": "inject",
+            "link": "/api/di/types/common/fn/function-inject"
+          },
+          {
+            "text": "injectMany",
+            "link": "/api/di/types/common/fn/function-inject-many"
+          },
+          {
+            "text": "injectable",
+            "link": "/api/di/types/common/fn/const-injectable"
+          },
+          {
+            "text": "interceptor",
+            "link": "/api/di/types/common/fn/const-interceptor"
+          },
+          {
+            "text": "controller",
+            "link": "/api/di/types/common/fn/const-controller"
+          },
+          {
+            "text": "DIConfigurationOptions",
+            "link": "/api/di/types/common/interfaces/interface-di-configuration-options"
+          },
+          {
+            "text": "injector",
+            "link": "/api/di/types/common/fn/function-injector"
+          },
+          {
+            "text": "destroyInjector",
+            "link": "/api/di/types/common/fn/function-destroy-injector"
+          },
+          {
+            "text": "lazyInject",
+            "link": "/api/di/types/common/fn/function-lazy-inject"
+          },
+          {
+            "text": "optionalLazyInject",
+            "link": "/api/di/types/common/fn/function-optional-lazy-inject"
+          },
+          {
+            "text": "localsContainer",
+            "link": "/api/di/types/common/fn/function-locals-container"
+          },
+          {
+            "text": "invokeOptions",
+            "link": "/api/di/types/common/fn/function-invoke-options"
+          },
+          {
+            "text": "detachLocalsContainer",
+            "link": "/api/di/types/common/fn/function-detach-locals-container"
+          },
+          {
+            "text": "cleanAllLocalsContainer",
+            "link": "/api/di/types/common/fn/function-clean-all-locals-container"
+          },
+          {
+            "text": "refValue",
+            "link": "/api/di/types/common/fn/function-ref-value"
+          },
+          {
+            "text": "DILogger",
+            "link": "/api/di/types/common/interfaces/interface-di-logger"
+          },
+          {
+            "text": "DILoggerOptions",
+            "link": "/api/di/types/common/interfaces/interface-di-logger-options"
+          },
+          {
+            "text": "InterceptorNext",
+            "link": "/api/di/types/common/interfaces/interface-interceptor-next"
+          },
+          {
+            "text": "InterceptorContext",
+            "link": "/api/di/types/common/interfaces/interface-interceptor-context"
+          },
+          {
+            "text": "InterceptorMethods",
+            "link": "/api/di/types/common/interfaces/interface-interceptor-methods"
+          },
+          {
+            "text": "UseImportTokenProviderOpts",
+            "link": "/api/di/types/common/interfaces/type-use-import-token-provider-opts"
+          },
+          {
+            "text": "UseClassImportTokenProviderOpts",
+            "link": "/api/di/types/common/interfaces/type-use-class-import-token-provider-opts"
+          },
+          {
+            "text": "UseFactoryImportTokenProviderOpts",
+            "link": "/api/di/types/common/interfaces/type-use-factory-import-token-provider-opts"
+          },
+          {
+            "text": "UseAsyncFactoryImportTokenProviderOpts",
+            "link": "/api/di/types/common/interfaces/type-use-async-factory-import-token-provider-opts"
+          },
+          {
+            "text": "ImportTokenProviderOpts",
+            "link": "/api/di/types/common/interfaces/type-import-token-provider-opts"
+          },
+          {
+            "text": "InvokeOptions",
+            "link": "/api/di/types/common/interfaces/interface-invoke-options"
+          },
+          {
+            "text": "OnInit",
+            "link": "/api/di/types/common/interfaces/interface-on-init"
+          },
+          {
+            "text": "ProviderOpts",
+            "link": "/api/di/types/common/interfaces/interface-provider-opts"
+          },
+          {
+            "text": "OnDestroy",
+            "link": "/api/di/types/common/interfaces/interface-on-destroy"
+          },
+          {
+            "text": "ResolvedInvokeOptions",
+            "link": "/api/di/types/common/interfaces/interface-resolved-invoke-options"
+          },
+          {
+            "text": "TokenRoute",
+            "link": "/api/di/types/common/interfaces/interface-token-route"
+          },
+          {
+            "text": "TokenProvider",
+            "link": "/api/di/types/common/interfaces/type-token-provider"
+          },
+          {
+            "text": "CONFIGURATION",
+            "link": "/api/di/types/common/services/const-configuration"
+          },
+          {
+            "text": "DIConfiguration",
+            "link": "/api/di/types/common/services/class-di-configuration"
+          },
+          {
+            "text": "InjectorService",
+            "link": "/api/di/types/common/services/class-injector-service"
+          },
+          {
+            "text": "LOGGER",
+            "link": "/api/di/types/common/services/const-logger"
+          },
+          {
+            "text": "InjectContext",
+            "link": "/api/di/types/node/decorators/decorator-inject-context"
+          },
+          {
+            "text": "ContextLoggerOptions",
+            "link": "/api/di/types/node/domain/interface-context-logger-options"
+          },
+          {
+            "text": "ContextLogger",
+            "link": "/api/di/types/node/domain/class-context-logger"
+          },
+          {
+            "text": "DIContextOptions",
+            "link": "/api/di/types/node/domain/interface-di-context-options"
+          },
+          {
+            "text": "DIContext",
+            "link": "/api/di/types/node/domain/class-di-context"
+          },
+          {
+            "text": "BaseContext",
+            "link": "/api/di/types/node/domain/type-base-context"
+          },
+          {
+            "text": "context",
+            "link": "/api/di/types/node/fn/function-context"
+          },
+          {
+            "text": "AlterRunInContext",
+            "link": "/api/di/types/node/interfaces/interface-alter-run-in-context"
+          },
+          {
+            "text": "logger",
+            "link": "/api/di/types/node/fn/function-logger"
+          },
+          {
+            "text": "contextLogger",
+            "link": "/api/di/types/node/fn/function-context-logger"
+          },
+          {
+            "text": "DITest",
+            "link": "/api/di/types/node/services/class-di-test"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/engines",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "AtplEngine",
+            "link": "/api/engines/types/components/class-atpl-engine"
+          },
+          {
+            "text": "BracketEngine",
+            "link": "/api/engines/types/components/class-bracket-engine"
+          },
+          {
+            "text": "DotEngine",
+            "link": "/api/engines/types/components/class-dot-engine"
+          },
+          {
+            "text": "DustEngine",
+            "link": "/api/engines/types/components/class-dust-engine"
+          },
+          {
+            "text": "EctEngine",
+            "link": "/api/engines/types/components/class-ect-engine"
+          },
+          {
+            "text": "EjsEngine",
+            "link": "/api/engines/types/components/class-ejs-engine"
+          },
+          {
+            "text": "ViewEngineOptions",
+            "link": "/api/engines/types/components/interface-view-engine-options"
+          },
+          {
+            "text": "EngineOptions",
+            "link": "/api/engines/types/components/interface-engine-options"
+          },
+          {
+            "text": "Engine",
+            "link": "/api/engines/types/components/class-engine"
+          },
+          {
+            "text": "HamlCoffeeEngine",
+            "link": "/api/engines/types/components/class-haml-coffee-engine"
+          },
+          {
+            "text": "HamletEngine",
+            "link": "/api/engines/types/components/class-hamlet-engine"
+          },
+          {
+            "text": "HandlebarsEngine",
+            "link": "/api/engines/types/components/class-handlebars-engine"
+          },
+          {
+            "text": "HamlEngine",
+            "link": "/api/engines/types/components/class-haml-engine"
+          },
+          {
+            "text": "HtmlingEngine",
+            "link": "/api/engines/types/components/class-htmling-engine"
+          },
+          {
+            "text": "HoganEngine",
+            "link": "/api/engines/types/components/class-hogan-engine"
+          },
+          {
+            "text": "JazzEngine",
+            "link": "/api/engines/types/components/class-jazz-engine"
+          },
+          {
+            "text": "JustEngine",
+            "link": "/api/engines/types/components/class-just-engine"
+          },
+          {
+            "text": "JqtplEngine",
+            "link": "/api/engines/types/components/class-jqtpl-engine"
+          },
+          {
+            "text": "LiquorEngine",
+            "link": "/api/engines/types/components/class-liquor-engine"
+          },
+          {
+            "text": "LodashEngine",
+            "link": "/api/engines/types/components/class-lodash-engine"
+          },
+          {
+            "text": "MoteEngine",
+            "link": "/api/engines/types/components/class-mote-engine"
+          },
+          {
+            "text": "MustacheEngine",
+            "link": "/api/engines/types/components/class-mustache-engine"
+          },
+          {
+            "text": "NunjucksEngine",
+            "link": "/api/engines/types/components/class-nunjucks-engine"
+          },
+          {
+            "text": "PlatesEngine",
+            "link": "/api/engines/types/components/class-plates-engine"
+          },
+          {
+            "text": "PugEngine",
+            "link": "/api/engines/types/components/class-pug-engine"
+          },
+          {
+            "text": "RactiveEngine",
+            "link": "/api/engines/types/components/class-ractive-engine"
+          },
+          {
+            "text": "SlmEngine",
+            "link": "/api/engines/types/components/class-slm-engine"
+          },
+          {
+            "text": "ReactEngine",
+            "link": "/api/engines/types/components/class-react-engine"
+          },
+          {
+            "text": "SquirrellyEngine",
+            "link": "/api/engines/types/components/class-squirrelly-engine"
+          },
+          {
+            "text": "SwigEngine",
+            "link": "/api/engines/types/components/class-swig-engine"
+          },
+          {
+            "text": "TemplayedEngine",
+            "link": "/api/engines/types/components/class-templayed-engine"
+          },
+          {
+            "text": "TwigEngine",
+            "link": "/api/engines/types/components/class-twig-engine"
+          },
+          {
+            "text": "TwingEngine",
+            "link": "/api/engines/types/components/class-twing-engine"
+          },
+          {
+            "text": "UnderscoreEngine",
+            "link": "/api/engines/types/components/class-underscore-engine"
+          },
+          {
+            "text": "VelocityEngine",
+            "link": "/api/engines/types/components/class-velocity-engine"
+          },
+          {
+            "text": "VashEngine",
+            "link": "/api/engines/types/components/class-vash-engine"
+          },
+          {
+            "text": "WalrusEngine",
+            "link": "/api/engines/types/components/class-walrus-engine"
+          },
+          {
+            "text": "ViewEngine",
+            "link": "/api/engines/types/decorators/decorator-view-engine"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/exceptions",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "BadRequest",
+            "link": "/api/specs/exceptions/types/clientErrors/class-bad-request"
+          },
+          {
+            "text": "BadMapping",
+            "link": "/api/specs/exceptions/types/clientErrors/class-bad-mapping"
+          },
+          {
+            "text": "Conflict",
+            "link": "/api/specs/exceptions/types/clientErrors/class-conflict"
+          },
+          {
+            "text": "ExpectationFailed",
+            "link": "/api/specs/exceptions/types/clientErrors/class-expectation-failed"
+          },
+          {
+            "text": "Forbidden",
+            "link": "/api/specs/exceptions/types/clientErrors/class-forbidden"
+          },
+          {
+            "text": "Gone",
+            "link": "/api/specs/exceptions/types/clientErrors/class-gone"
+          },
+          {
+            "text": "ImATeapot",
+            "link": "/api/specs/exceptions/types/clientErrors/class-im-a-teapot"
+          },
+          {
+            "text": "LengthRequired",
+            "link": "/api/specs/exceptions/types/clientErrors/class-length-required"
+          },
+          {
+            "text": "MethodNotAllowed",
+            "link": "/api/specs/exceptions/types/clientErrors/class-method-not-allowed"
+          },
+          {
+            "text": "MisdirectedRequest",
+            "link": "/api/specs/exceptions/types/clientErrors/class-misdirected-request"
+          },
+          {
+            "text": "NotAcceptable",
+            "link": "/api/specs/exceptions/types/clientErrors/class-not-acceptable"
+          },
+          {
+            "text": "NotFound",
+            "link": "/api/specs/exceptions/types/clientErrors/class-not-found"
+          },
+          {
+            "text": "PaymentRequired",
+            "link": "/api/specs/exceptions/types/clientErrors/class-payment-required"
+          },
+          {
+            "text": "PreconditionFailed",
+            "link": "/api/specs/exceptions/types/clientErrors/class-precondition-failed"
+          },
+          {
+            "text": "PreconditionRequired",
+            "link": "/api/specs/exceptions/types/clientErrors/class-precondition-required"
+          },
+          {
+            "text": "ProxyAuthentificationRequired",
+            "link": "/api/specs/exceptions/types/clientErrors/class-proxy-authentification-required"
+          },
+          {
+            "text": "RequestEntityTooLarge",
+            "link": "/api/specs/exceptions/types/clientErrors/class-request-entity-too-large"
+          },
+          {
+            "text": "RequestHeaderFieldsTooLarge",
+            "link": "/api/specs/exceptions/types/clientErrors/class-request-header-fields-too-large"
+          },
+          {
+            "text": "RequestRangeUnsatisfiable",
+            "link": "/api/specs/exceptions/types/clientErrors/class-request-range-unsatisfiable"
+          },
+          {
+            "text": "RequestTimeout",
+            "link": "/api/specs/exceptions/types/clientErrors/class-request-timeout"
+          },
+          {
+            "text": "RequestURITooLong",
+            "link": "/api/specs/exceptions/types/clientErrors/class-request-uri-too-long"
+          },
+          {
+            "text": "Unauthorized",
+            "link": "/api/specs/exceptions/types/clientErrors/class-unauthorized"
+          },
+          {
+            "text": "TooManyRequests",
+            "link": "/api/specs/exceptions/types/clientErrors/class-too-many-requests"
+          },
+          {
+            "text": "UnavailableForLegalReasons",
+            "link": "/api/specs/exceptions/types/clientErrors/class-unavailable-for-legal-reasons"
+          },
+          {
+            "text": "UnprocessableEntity",
+            "link": "/api/specs/exceptions/types/clientErrors/class-unprocessable-entity"
+          },
+          {
+            "text": "UpgradeRequired",
+            "link": "/api/specs/exceptions/types/clientErrors/class-upgrade-required"
+          },
+          {
+            "text": "UnsupportedMediaType",
+            "link": "/api/specs/exceptions/types/clientErrors/class-unsupported-media-type"
+          },
+          {
+            "text": "ClientException",
+            "link": "/api/specs/exceptions/types/core/class-client-exception"
+          },
+          {
+            "text": "Exception",
+            "link": "/api/specs/exceptions/types/core/class-exception"
+          },
+          {
+            "text": "HTTPException",
+            "link": "/api/specs/exceptions/types/core/class-http-exception"
+          },
+          {
+            "text": "RedirectException",
+            "link": "/api/specs/exceptions/types/core/class-redirect-exception"
+          },
+          {
+            "text": "ServerException",
+            "link": "/api/specs/exceptions/types/core/class-server-exception"
+          },
+          {
+            "text": "StatusFamily",
+            "link": "/api/specs/exceptions/types/core/enum-status-family"
+          },
+          {
+            "text": "MovedPermanently",
+            "link": "/api/specs/exceptions/types/redirections/class-moved-permanently"
+          },
+          {
+            "text": "MovedTemporarily",
+            "link": "/api/specs/exceptions/types/redirections/class-moved-temporarily"
+          },
+          {
+            "text": "MultipleChoices",
+            "link": "/api/specs/exceptions/types/redirections/class-multiple-choices"
+          },
+          {
+            "text": "NotModified",
+            "link": "/api/specs/exceptions/types/redirections/class-not-modified"
+          },
+          {
+            "text": "PermanentRedirect",
+            "link": "/api/specs/exceptions/types/redirections/class-permanent-redirect"
+          },
+          {
+            "text": "SeeOther",
+            "link": "/api/specs/exceptions/types/redirections/class-see-other"
+          },
+          {
+            "text": "TemporaryRedirect",
+            "link": "/api/specs/exceptions/types/redirections/class-temporary-redirect"
+          },
+          {
+            "text": "UseProxy",
+            "link": "/api/specs/exceptions/types/redirections/class-use-proxy"
+          },
+          {
+            "text": "BadGateway",
+            "link": "/api/specs/exceptions/types/serverErrors/class-bad-gateway"
+          },
+          {
+            "text": "BandwidthLimitExceeded",
+            "link": "/api/specs/exceptions/types/serverErrors/class-bandwidth-limit-exceeded"
+          },
+          {
+            "text": "GatewayTimeout",
+            "link": "/api/specs/exceptions/types/serverErrors/class-gateway-timeout"
+          },
+          {
+            "text": "NetworkAuthenticationRequired",
+            "link": "/api/specs/exceptions/types/serverErrors/class-network-authentication-required"
+          },
+          {
+            "text": "InternalServerError",
+            "link": "/api/specs/exceptions/types/serverErrors/class-internal-server-error"
+          },
+          {
+            "text": "NotImplemented",
+            "link": "/api/specs/exceptions/types/serverErrors/class-not-implemented"
+          },
+          {
+            "text": "NotExtended",
+            "link": "/api/specs/exceptions/types/serverErrors/class-not-extended"
+          },
+          {
+            "text": "ProxyError",
+            "link": "/api/specs/exceptions/types/serverErrors/class-proxy-error"
+          },
+          {
+            "text": "ServiceUnavailable",
+            "link": "/api/specs/exceptions/types/serverErrors/class-service-unavailable"
+          },
+          {
+            "text": "VariantAlsoNegotiates",
+            "link": "/api/specs/exceptions/types/serverErrors/class-variant-also-negotiates"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/hooks",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "HookRef",
+            "link": "/api/hooks/types/type-hook-ref"
+          },
+          {
+            "text": "HookListener",
+            "link": "/api/hooks/types/type-hook-listener"
+          },
+          {
+            "text": "Hooks",
+            "link": "/api/hooks/types/class-hooks"
+          },
+          {
+            "text": "hooks",
+            "link": "/api/hooks/types/const-hooks"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/json-mapper",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "DateMapper",
+            "link": "/api/specs/json-mapper/types/components/class-date-mapper"
+          },
+          {
+            "text": "SymbolMapper",
+            "link": "/api/specs/json-mapper/types/components/class-symbol-mapper"
+          },
+          {
+            "text": "CastError",
+            "link": "/api/specs/json-mapper/types/components/class-cast-error"
+          },
+          {
+            "text": "PrimitiveMapper",
+            "link": "/api/specs/json-mapper/types/components/class-primitive-mapper"
+          },
+          {
+            "text": "AfterDeserializeCallback",
+            "link": "/api/specs/json-mapper/types/decorators/interface-after-deserialize-callback"
+          },
+          {
+            "text": "AfterDeserialize",
+            "link": "/api/specs/json-mapper/types/decorators/decorator-after-deserialize"
+          },
+          {
+            "text": "BeforeDeserializeCallback",
+            "link": "/api/specs/json-mapper/types/decorators/interface-before-deserialize-callback"
+          },
+          {
+            "text": "BeforeDeserialize",
+            "link": "/api/specs/json-mapper/types/decorators/decorator-before-deserialize"
+          },
+          {
+            "text": "JsonDeserializerOptions",
+            "link": "/api/specs/json-mapper/types/domain/interface-json-deserializer-options"
+          },
+          {
+            "text": "JsonMapper",
+            "link": "/api/specs/json-mapper/types/decorators/decorator-json-mapper"
+          },
+          {
+            "text": "OnDeserializeCallback",
+            "link": "/api/specs/json-mapper/types/decorators/interface-on-deserialize-callback"
+          },
+          {
+            "text": "OnDeserialize",
+            "link": "/api/specs/json-mapper/types/decorators/decorator-on-deserialize"
+          },
+          {
+            "text": "OnSerializeCallback",
+            "link": "/api/specs/json-mapper/types/decorators/interface-on-serialize-callback"
+          },
+          {
+            "text": "OnSerialize",
+            "link": "/api/specs/json-mapper/types/decorators/decorator-on-serialize"
+          },
+          {
+            "text": "JsonDeserializer",
+            "link": "/api/specs/json-mapper/types/domain/class-json-deserializer"
+          },
+          {
+            "text": "JsonMapperGlobalOptions",
+            "link": "/api/specs/json-mapper/types/domain/interface-json-mapper-global-options"
+          },
+          {
+            "text": "JsonMapperCallback",
+            "link": "/api/specs/json-mapper/types/domain/type-json-mapper-callback"
+          },
+          {
+            "text": "CachedJsonMapper",
+            "link": "/api/specs/json-mapper/types/domain/type-cached-json-mapper"
+          },
+          {
+            "text": "CachedGroupsJsonMapper",
+            "link": "/api/specs/json-mapper/types/domain/type-cached-groups-json-mapper"
+          },
+          {
+            "text": "JsonMapperCompiler",
+            "link": "/api/specs/json-mapper/types/domain/class-json-mapper-compiler"
+          },
+          {
+            "text": "JsonMapperSettings",
+            "link": "/api/specs/json-mapper/types/domain/const-json-mapper-settings"
+          },
+          {
+            "text": "JsonSerializer",
+            "link": "/api/specs/json-mapper/types/domain/class-json-serializer"
+          },
+          {
+            "text": "JsonSerializerOptions",
+            "link": "/api/specs/json-mapper/types/domain/interface-json-serializer-options"
+          },
+          {
+            "text": "JsonMapperCtx",
+            "link": "/api/specs/json-mapper/types/interfaces/interface-json-mapper-ctx"
+          },
+          {
+            "text": "JsonMapperNext",
+            "link": "/api/specs/json-mapper/types/interfaces/interface-json-mapper-next"
+          },
+          {
+            "text": "JsonMapperMethods",
+            "link": "/api/specs/json-mapper/types/interfaces/interface-json-mapper-methods"
+          },
+          {
+            "text": "Writer",
+            "link": "/api/specs/json-mapper/types/domain/class-writer"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/schema",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Schema",
+            "link": "/api/specs/schema/types/decorators/common/decorator-schema"
+          },
+          {
+            "text": "View",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-view"
+          },
+          {
+            "text": "JsonClassStore",
+            "link": "/api/specs/schema/types/domain/class-json-class-store"
+          },
+          {
+            "text": "Discriminator",
+            "link": "/api/specs/schema/types/domain/class-discriminator"
+          },
+          {
+            "text": "JsonEntityStoreOptions",
+            "link": "/api/specs/schema/types/domain/interface-json-entity-store-options"
+          },
+          {
+            "text": "JsonEntityStore",
+            "link": "/api/specs/schema/types/domain/class-json-entity-store"
+          },
+          {
+            "text": "JsonFormatTypes",
+            "link": "/api/specs/schema/types/domain/enum-json-format-types"
+          },
+          {
+            "text": "JsonLazyRef",
+            "link": "/api/specs/schema/types/domain/class-json-lazy-ref"
+          },
+          {
+            "text": "JsonMap",
+            "link": "/api/specs/schema/types/domain/class-json-map"
+          },
+          {
+            "text": "JsonMedia",
+            "link": "/api/specs/schema/types/domain/class-json-media"
+          },
+          {
+            "text": "JsonViewOptions",
+            "link": "/api/specs/schema/types/domain/interface-json-view-options"
+          },
+          {
+            "text": "JsonRedirectOptions",
+            "link": "/api/specs/schema/types/domain/interface-json-redirect-options"
+          },
+          {
+            "text": "JsonMethodStore",
+            "link": "/api/specs/schema/types/domain/class-json-method-store"
+          },
+          {
+            "text": "EndpointMetadata",
+            "link": "/api/specs/schema/types/domain/type-endpoint-metadata"
+          },
+          {
+            "text": "JsonMethodPath",
+            "link": "/api/specs/schema/types/domain/class-json-method-path"
+          },
+          {
+            "text": "JsonOperationOptions",
+            "link": "/api/specs/schema/types/domain/interface-json-operation-options"
+          },
+          {
+            "text": "JsonOperation",
+            "link": "/api/specs/schema/types/domain/class-json-operation"
+          },
+          {
+            "text": "JsonOperationPathsMap",
+            "link": "/api/specs/schema/types/domain/class-json-operation-paths-map"
+          },
+          {
+            "text": "JsonOperationRoute",
+            "link": "/api/specs/schema/types/domain/class-json-operation-route"
+          },
+          {
+            "text": "JsonParameterStoreOptions",
+            "link": "/api/specs/schema/types/domain/interface-json-parameter-store-options"
+          },
+          {
+            "text": "PipeMethods",
+            "link": "/api/specs/schema/types/domain/interface-pipe-methods"
+          },
+          {
+            "text": "JsonParameterStore",
+            "link": "/api/specs/schema/types/domain/class-json-parameter-store"
+          },
+          {
+            "text": "ParamMetadata",
+            "link": "/api/specs/schema/types/domain/type-param-metadata"
+          },
+          {
+            "text": "JsonParameter",
+            "link": "/api/specs/schema/types/domain/class-json-parameter"
+          },
+          {
+            "text": "JsonParameterTypes",
+            "link": "/api/specs/schema/types/domain/enum-json-parameter-types"
+          },
+          {
+            "text": "JsonPropertyStore",
+            "link": "/api/specs/schema/types/domain/class-json-property-store"
+          },
+          {
+            "text": "PropertyMetadata",
+            "link": "/api/specs/schema/types/domain/type-property-metadata"
+          },
+          {
+            "text": "JsonRequestBodyOptions",
+            "link": "/api/specs/schema/types/domain/type-json-request-body-options"
+          },
+          {
+            "text": "JsonRequestBody",
+            "link": "/api/specs/schema/types/domain/class-json-request-body"
+          },
+          {
+            "text": "JsonResponseOptions",
+            "link": "/api/specs/schema/types/domain/type-json-response-options"
+          },
+          {
+            "text": "JsonResponse",
+            "link": "/api/specs/schema/types/domain/class-json-response"
+          },
+          {
+            "text": "JsonSchemaObject",
+            "link": "/api/specs/schema/types/domain/interface-json-schema-object"
+          },
+          {
+            "text": "AnyJsonSchema",
+            "link": "/api/specs/schema/types/domain/type-any-json-schema"
+          },
+          {
+            "text": "JsonSchema",
+            "link": "/api/specs/schema/types/domain/class-json-schema"
+          },
+          {
+            "text": "SpecTypes",
+            "link": "/api/specs/schema/types/domain/enum-spec-types"
+          },
+          {
+            "text": "allOf",
+            "link": "/api/specs/schema/types/fn/function-all-of"
+          },
+          {
+            "text": "any",
+            "link": "/api/specs/schema/types/fn/function-any"
+          },
+          {
+            "text": "boolean",
+            "link": "/api/specs/schema/types/fn/function-boolean"
+          },
+          {
+            "text": "anyOf",
+            "link": "/api/specs/schema/types/fn/function-any-of"
+          },
+          {
+            "text": "array",
+            "link": "/api/specs/schema/types/fn/function-array"
+          },
+          {
+            "text": "map",
+            "link": "/api/specs/schema/types/fn/function-map"
+          },
+          {
+            "text": "set",
+            "link": "/api/specs/schema/types/fn/function-set"
+          },
+          {
+            "text": "date",
+            "link": "/api/specs/schema/types/fn/function-date"
+          },
+          {
+            "text": "datetime",
+            "link": "/api/specs/schema/types/fn/function-datetime"
+          },
+          {
+            "text": "time",
+            "link": "/api/specs/schema/types/fn/function-time"
+          },
+          {
+            "text": "email",
+            "link": "/api/specs/schema/types/fn/function-email"
+          },
+          {
+            "text": "from",
+            "link": "/api/specs/schema/types/fn/function-from"
+          },
+          {
+            "text": "enums",
+            "link": "/api/specs/schema/types/fn/function-enums"
+          },
+          {
+            "text": "integer",
+            "link": "/api/specs/schema/types/fn/function-integer"
+          },
+          {
+            "text": "lazyRef",
+            "link": "/api/specs/schema/types/fn/function-lazy-ref"
+          },
+          {
+            "text": "number",
+            "link": "/api/specs/schema/types/fn/function-number"
+          },
+          {
+            "text": "oneOf",
+            "link": "/api/specs/schema/types/fn/function-one-of"
+          },
+          {
+            "text": "object",
+            "link": "/api/specs/schema/types/fn/function-object"
+          },
+          {
+            "text": "string",
+            "link": "/api/specs/schema/types/fn/function-string"
+          },
+          {
+            "text": "uri",
+            "link": "/api/specs/schema/types/fn/function-uri"
+          },
+          {
+            "text": "url",
+            "link": "/api/specs/schema/types/fn/function-url"
+          },
+          {
+            "text": "IgnoreCallback",
+            "link": "/api/specs/schema/types/interfaces/interface-ignore-callback"
+          },
+          {
+            "text": "JsonHeader",
+            "link": "/api/specs/schema/types/interfaces/interface-json-header"
+          },
+          {
+            "text": "JsonHeaders",
+            "link": "/api/specs/schema/types/interfaces/interface-json-headers"
+          },
+          {
+            "text": "JsonHookContext",
+            "link": "/api/specs/schema/types/interfaces/interface-json-hook-context"
+          },
+          {
+            "text": "JsonSchemaOptions",
+            "link": "/api/specs/schema/types/interfaces/interface-json-schema-options"
+          },
+          {
+            "text": "channelsMapper",
+            "link": "/api/specs/schema/types/components/async-api/function-channels-mapper"
+          },
+          {
+            "text": "messageMapper",
+            "link": "/api/specs/schema/types/components/async-api/function-message-mapper"
+          },
+          {
+            "text": "payloadMapper",
+            "link": "/api/specs/schema/types/components/async-api/function-payload-mapper"
+          },
+          {
+            "text": "responsePayloadMapper",
+            "link": "/api/specs/schema/types/components/async-api/function-response-payload-mapper"
+          },
+          {
+            "text": "anyMapper",
+            "link": "/api/specs/schema/types/components/default/function-any-mapper"
+          },
+          {
+            "text": "classMapper",
+            "link": "/api/specs/schema/types/components/default/function-class-mapper"
+          },
+          {
+            "text": "discriminatorMappingMapper",
+            "link": "/api/specs/schema/types/components/default/function-discriminator-mapping-mapper"
+          },
+          {
+            "text": "enumsMapper",
+            "link": "/api/specs/schema/types/components/default/function-enums-mapper"
+          },
+          {
+            "text": "itemMapper",
+            "link": "/api/specs/schema/types/components/default/function-item-mapper"
+          },
+          {
+            "text": "lazyRefMapper",
+            "link": "/api/specs/schema/types/components/default/function-lazy-ref-mapper"
+          },
+          {
+            "text": "nullableMapper",
+            "link": "/api/specs/schema/types/components/default/function-nullable-mapper"
+          },
+          {
+            "text": "ofMapper",
+            "link": "/api/specs/schema/types/components/default/function-of-mapper"
+          },
+          {
+            "text": "propertiesMapper",
+            "link": "/api/specs/schema/types/components/default/function-properties-mapper"
+          },
+          {
+            "text": "requiredMapper",
+            "link": "/api/specs/schema/types/components/default/function-required-mapper"
+          },
+          {
+            "text": "schemaMapper",
+            "link": "/api/specs/schema/types/components/default/function-schema-mapper"
+          },
+          {
+            "text": "wrapEnumsMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-wrap-enums-mapper"
+          },
+          {
+            "text": "nullableMapperOpenApi",
+            "link": "/api/specs/schema/types/components/open-spec/function-nullable-mapper-open-api"
+          },
+          {
+            "text": "operationInFilesMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-in-files-mapper"
+          },
+          {
+            "text": "JsonParameterOptions",
+            "link": "/api/specs/schema/types/components/open-spec/type-json-parameter-options"
+          },
+          {
+            "text": "operationInParameterMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-in-parameter-mapper"
+          },
+          {
+            "text": "operationInParametersMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-in-parameters-mapper"
+          },
+          {
+            "text": "operationInQueryMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-in-query-mapper"
+          },
+          {
+            "text": "operationMediaMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-media-mapper"
+          },
+          {
+            "text": "operationRequestBodyMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-request-body-mapper"
+          },
+          {
+            "text": "operationMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-mapper"
+          },
+          {
+            "text": "pathsMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-paths-mapper"
+          },
+          {
+            "text": "operationResponseMapper",
+            "link": "/api/specs/schema/types/components/open-spec/function-operation-response-mapper"
+          },
+          {
+            "text": "Children",
+            "link": "/api/specs/schema/types/decorators/class/decorator-children"
+          },
+          {
+            "text": "DiscriminatorValue",
+            "link": "/api/specs/schema/types/decorators/class/decorator-discriminator-value"
+          },
+          {
+            "text": "AdditionalProperties",
+            "link": "/api/specs/schema/types/decorators/common/decorator-additional-properties"
+          },
+          {
+            "text": "AllOf",
+            "link": "/api/specs/schema/types/decorators/common/decorator-all-of"
+          },
+          {
+            "text": "Allow",
+            "link": "/api/specs/schema/types/decorators/common/decorator-allow"
+          },
+          {
+            "text": "AnyOf",
+            "link": "/api/specs/schema/types/decorators/common/decorator-any-of"
+          },
+          {
+            "text": "Any",
+            "link": "/api/specs/schema/types/decorators/common/decorator-any"
+          },
+          {
+            "text": "CustomKey",
+            "link": "/api/specs/schema/types/decorators/common/decorator-custom-key"
+          },
+          {
+            "text": "CustomKeys",
+            "link": "/api/specs/schema/types/decorators/common/decorator-custom-keys"
+          },
+          {
+            "text": "Const",
+            "link": "/api/specs/schema/types/decorators/common/decorator-const"
+          },
+          {
+            "text": "Default",
+            "link": "/api/specs/schema/types/decorators/common/decorator-default"
+          },
+          {
+            "text": "DefaultMsg",
+            "link": "/api/specs/schema/types/decorators/common/decorator-default-msg"
+          },
+          {
+            "text": "Description",
+            "link": "/api/specs/schema/types/decorators/common/decorator-description"
+          },
+          {
+            "text": "DiscriminatorKey",
+            "link": "/api/specs/schema/types/decorators/common/decorator-discriminator-key"
+          },
+          {
+            "text": "Enum",
+            "link": "/api/specs/schema/types/decorators/common/const-enum"
+          },
+          {
+            "text": "Examples",
+            "link": "/api/specs/schema/types/decorators/common/decorator-examples"
+          },
+          {
+            "text": "Example",
+            "link": "/api/specs/schema/types/decorators/common/decorator-example"
+          },
+          {
+            "text": "ErrorMsg",
+            "link": "/api/specs/schema/types/decorators/common/decorator-error-msg"
+          },
+          {
+            "text": "ExclusiveMaximum",
+            "link": "/api/specs/schema/types/decorators/common/const-exclusive-maximum"
+          },
+          {
+            "text": "ExclusiveMinimum",
+            "link": "/api/specs/schema/types/decorators/common/const-exclusive-minimum"
+          },
+          {
+            "text": "ForwardGroups",
+            "link": "/api/specs/schema/types/decorators/common/decorator-forward-groups"
+          },
+          {
+            "text": "Format",
+            "link": "/api/specs/schema/types/decorators/common/const-format"
+          },
+          {
+            "text": "Email",
+            "link": "/api/specs/schema/types/decorators/common/const-email"
+          },
+          {
+            "text": "DateTime",
+            "link": "/api/specs/schema/types/decorators/common/const-date-time"
+          },
+          {
+            "text": "DateFormat",
+            "link": "/api/specs/schema/types/decorators/common/const-date-format"
+          },
+          {
+            "text": "TimeFormat",
+            "link": "/api/specs/schema/types/decorators/common/const-time-format"
+          },
+          {
+            "text": "Uri",
+            "link": "/api/specs/schema/types/decorators/common/const-uri"
+          },
+          {
+            "text": "Url",
+            "link": "/api/specs/schema/types/decorators/common/const-url"
+          },
+          {
+            "text": "Groups",
+            "link": "/api/specs/schema/types/decorators/common/decorator-groups"
+          },
+          {
+            "text": "Integer",
+            "link": "/api/specs/schema/types/decorators/common/decorator-integer"
+          },
+          {
+            "text": "JsonEntityFn",
+            "link": "/api/specs/schema/types/decorators/common/decorator-json-entity-fn"
+          },
+          {
+            "text": "Ignore",
+            "link": "/api/specs/schema/types/decorators/common/decorator-ignore"
+          },
+          {
+            "text": "LabelledAs",
+            "link": "/api/specs/schema/types/decorators/common/decorator-labelled-as"
+          },
+          {
+            "text": "Maximum",
+            "link": "/api/specs/schema/types/decorators/common/const-maximum"
+          },
+          {
+            "text": "Max",
+            "link": "/api/specs/schema/types/decorators/common/const-max"
+          },
+          {
+            "text": "MaxLength",
+            "link": "/api/specs/schema/types/decorators/common/const-max-length"
+          },
+          {
+            "text": "MinLength",
+            "link": "/api/specs/schema/types/decorators/common/const-min-length"
+          },
+          {
+            "text": "Minimum",
+            "link": "/api/specs/schema/types/decorators/common/const-minimum"
+          },
+          {
+            "text": "Min",
+            "link": "/api/specs/schema/types/decorators/common/const-min"
+          },
+          {
+            "text": "MultipleOf",
+            "link": "/api/specs/schema/types/decorators/common/const-multiple-of"
+          },
+          {
+            "text": "Name",
+            "link": "/api/specs/schema/types/decorators/common/decorator-name"
+          },
+          {
+            "text": "OneOf",
+            "link": "/api/specs/schema/types/decorators/common/decorator-one-of"
+          },
+          {
+            "text": "Nullable",
+            "link": "/api/specs/schema/types/decorators/common/decorator-nullable"
+          },
+          {
+            "text": "Optional",
+            "link": "/api/specs/schema/types/decorators/common/decorator-optional"
+          },
+          {
+            "text": "Property",
+            "link": "/api/specs/schema/types/decorators/common/decorator-property"
+          },
+          {
+            "text": "Pattern",
+            "link": "/api/specs/schema/types/decorators/common/const-pattern"
+          },
+          {
+            "text": "RecordOf",
+            "link": "/api/specs/schema/types/decorators/common/decorator-record-of"
+          },
+          {
+            "text": "ReadOnly",
+            "link": "/api/specs/schema/types/decorators/common/decorator-read-only"
+          },
+          {
+            "text": "Required",
+            "link": "/api/specs/schema/types/decorators/common/const-required"
+          },
+          {
+            "text": "RequiredGroups",
+            "link": "/api/specs/schema/types/decorators/common/decorator-required-groups"
+          },
+          {
+            "text": "For",
+            "link": "/api/specs/schema/types/decorators/common/decorator-for"
+          },
+          {
+            "text": "Title",
+            "link": "/api/specs/schema/types/decorators/common/decorator-title"
+          },
+          {
+            "text": "TypeError",
+            "link": "/api/specs/schema/types/decorators/common/decorator-type-error"
+          },
+          {
+            "text": "WriteOnly",
+            "link": "/api/specs/schema/types/decorators/common/decorator-write-only"
+          },
+          {
+            "text": "CollectionContains",
+            "link": "/api/specs/schema/types/decorators/collections/decorator-collection-contains"
+          },
+          {
+            "text": "MaxItems",
+            "link": "/api/specs/schema/types/decorators/collections/const-max-items"
+          },
+          {
+            "text": "ArrayOfChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/collections/interface-array-of-chained-decorators"
+          },
+          {
+            "text": "MapOfChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/collections/interface-map-of-chained-decorators"
+          },
+          {
+            "text": "CollectionOfChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/collections/interface-collection-of-chained-decorators"
+          },
+          {
+            "text": "CollectionOf",
+            "link": "/api/specs/schema/types/decorators/collections/decorator-collection-of"
+          },
+          {
+            "text": "ArrayOf",
+            "link": "/api/specs/schema/types/decorators/collections/decorator-array-of"
+          },
+          {
+            "text": "MapOf",
+            "link": "/api/specs/schema/types/decorators/collections/decorator-map-of"
+          },
+          {
+            "text": "MaxProperties",
+            "link": "/api/specs/schema/types/decorators/collections/const-max-properties"
+          },
+          {
+            "text": "MinProperties",
+            "link": "/api/specs/schema/types/decorators/collections/const-min-properties"
+          },
+          {
+            "text": "MinItems",
+            "link": "/api/specs/schema/types/decorators/collections/const-min-items"
+          },
+          {
+            "text": "UniqueItems",
+            "link": "/api/specs/schema/types/decorators/collections/const-unique-items"
+          },
+          {
+            "text": "Generics",
+            "link": "/api/specs/schema/types/decorators/generics/decorator-generics"
+          },
+          {
+            "text": "AcceptMime",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-accept-mime"
+          },
+          {
+            "text": "GenericOfChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/generics/interface-generic-of-chained-decorators"
+          },
+          {
+            "text": "GenericOf",
+            "link": "/api/specs/schema/types/decorators/generics/decorator-generic-of"
+          },
+          {
+            "text": "Consumes",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-consumes"
+          },
+          {
+            "text": "ContentType",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-content-type"
+          },
+          {
+            "text": "Deprecated",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-deprecated"
+          },
+          {
+            "text": "Header",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-header"
+          },
+          {
+            "text": "Location",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-location"
+          },
+          {
+            "text": "InChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/operations/interface-in-chained-decorators"
+          },
+          {
+            "text": "In",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-in"
+          },
+          {
+            "text": "InFile",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-in-file"
+          },
+          {
+            "text": "RouteChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/operations/interface-route-chained-decorators"
+          },
+          {
+            "text": "Operation",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-operation"
+          },
+          {
+            "text": "OperationId",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-operation-id"
+          },
+          {
+            "text": "Partial",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-partial"
+          },
+          {
+            "text": "OperationPath",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-operation-path"
+          },
+          {
+            "text": "Path",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-path"
+          },
+          {
+            "text": "Produces",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-produces"
+          },
+          {
+            "text": "Publish",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-publish"
+          },
+          {
+            "text": "Redirect",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-redirect"
+          },
+          {
+            "text": "ReturnsChainedDecorators",
+            "link": "/api/specs/schema/types/decorators/operations/interface-returns-chained-decorators"
+          },
+          {
+            "text": "Returns",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-returns"
+          },
+          {
+            "text": "All",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-all"
+          },
+          {
+            "text": "Get",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-get"
+          },
+          {
+            "text": "Post",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-post"
+          },
+          {
+            "text": "Put",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-put"
+          },
+          {
+            "text": "Delete",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-delete"
+          },
+          {
+            "text": "Head",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-head"
+          },
+          {
+            "text": "Patch",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-patch"
+          },
+          {
+            "text": "Options",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-options"
+          },
+          {
+            "text": "Security",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-security"
+          },
+          {
+            "text": "Status",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-status"
+          },
+          {
+            "text": "Subscribe",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-subscribe"
+          },
+          {
+            "text": "Summary",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-summary"
+          },
+          {
+            "text": "Tags",
+            "link": "/api/specs/schema/types/decorators/operations/decorator-tags"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Platform",
+    "items": [
+      {
+        "text": "@tsed/platform-cache",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformCacheOptions",
+            "link": "/api/platform/platform-cache/types/interfaces/interface-platform-cache-options"
+          },
+          {
+            "text": "UseCache",
+            "link": "/api/platform/platform-cache/types/decorators/decorator-use-cache"
+          },
+          {
+            "text": "CacheManager",
+            "link": "/api/platform/platform-cache/types/services/type-cache-manager"
+          },
+          {
+            "text": "Ttl",
+            "link": "/api/platform/platform-cache/types/services/type-ttl"
+          },
+          {
+            "text": "PlatformCache",
+            "link": "/api/platform/platform-cache/types/services/class-platform-cache"
+          },
+          {
+            "text": "PlatformCacheInterceptor",
+            "link": "/api/platform/platform-cache/types/interceptors/class-platform-cache-interceptor"
+          },
+          {
+            "text": "PlatformCachedObject",
+            "link": "/api/platform/platform-cache/types/interfaces/interface-platform-cached-object"
+          },
+          {
+            "text": "PlatformCacheSettings",
+            "link": "/api/platform/platform-cache/types/interfaces/type-platform-cache-settings"
+          },
+          {
+            "text": "OnCreateCacheManager",
+            "link": "/api/platform/platform-cache/types/interfaces/interface-on-create-cache-manager"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-exceptions",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Catch",
+            "link": "/api/platform/platform-exceptions/types/decorators/decorator-catch"
+          },
+          {
+            "text": "ErrorFilter",
+            "link": "/api/platform/platform-exceptions/types/components/class-error-filter"
+          },
+          {
+            "text": "ExceptionFilter",
+            "link": "/api/platform/platform-exceptions/types/components/class-exception-filter"
+          },
+          {
+            "text": "StringErrorFilter",
+            "link": "/api/platform/platform-exceptions/types/components/class-string-error-filter"
+          },
+          {
+            "text": "MongooseErrorFilter",
+            "link": "/api/platform/platform-exceptions/types/components/class-mongoose-error-filter"
+          },
+          {
+            "text": "ResourceNotFound",
+            "link": "/api/platform/platform-exceptions/types/errors/class-resource-not-found"
+          },
+          {
+            "text": "ExceptionFilterMethods",
+            "link": "/api/platform/platform-exceptions/types/interfaces/interface-exception-filter-methods"
+          },
+          {
+            "text": "PlatformExceptions",
+            "link": "/api/platform/platform-exceptions/types/services/class-platform-exceptions"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-express",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformExpressSettings",
+            "link": "/api/platform/platform-express/types/interfaces/interface-platform-express-settings"
+          },
+          {
+            "text": "PlatformExpress",
+            "link": "/api/platform/platform-express/types/components/class-platform-express"
+          },
+          {
+            "text": "PlatformExpressStaticsOptions",
+            "link": "/api/platform/platform-express/types/interfaces/interface-platform-express-statics-options"
+          },
+          {
+            "text": "PlatformExpressHandler",
+            "link": "/api/platform/platform-express/types/services/class-platform-express-handler"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-http",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "adapter",
+            "link": "/api/platform/platform-http/types/common/fn/function-adapter"
+          },
+          {
+            "text": "FakeAdapter",
+            "link": "/api/platform/platform-http/types/testing/class-fake-adapter"
+          },
+          {
+            "text": "PlatformTest",
+            "link": "/api/platform/platform-http/types/testing/class-platform-test"
+          },
+          {
+            "text": "FakeResponse",
+            "link": "/api/platform/platform-http/types/testing/class-fake-response"
+          },
+          {
+            "text": "PlatformBuilder",
+            "link": "/api/platform/platform-http/types/common/builder/class-platform-builder"
+          },
+          {
+            "text": "AnyToPromiseWithCtx",
+            "link": "/api/platform/platform-http/types/common/domain/class-any-to-promise-with-ctx"
+          },
+          {
+            "text": "PlatformRouteDetails",
+            "link": "/api/platform/platform-http/types/common/domain/interface-platform-route-details"
+          },
+          {
+            "text": "PlatformContextOptions",
+            "link": "/api/platform/platform-http/types/common/domain/interface-platform-context-options"
+          },
+          {
+            "text": "PlatformContext",
+            "link": "/api/platform/platform-http/types/common/domain/class-platform-context"
+          },
+          {
+            "text": "PlatformProvider",
+            "link": "/api/platform/platform-http/types/common/decorators/decorator-platform-provider"
+          },
+          {
+            "text": "application",
+            "link": "/api/platform/platform-http/types/common/fn/function-application"
+          },
+          {
+            "text": "Platform",
+            "link": "/api/platform/platform-http/types/common/services/class-platform"
+          },
+          {
+            "text": "PlatformApplication",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-application"
+          },
+          {
+            "text": "PlatformHandler",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-handler"
+          },
+          {
+            "text": "PlatformMiddlewaresChain",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-middlewares-chain"
+          },
+          {
+            "text": "PlatformAdapter",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-adapter"
+          },
+          {
+            "text": "PlatformBuilderSettings",
+            "link": "/api/platform/platform-http/types/common/services/interface-platform-builder-settings"
+          },
+          {
+            "text": "AfterInit",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-after-init"
+          },
+          {
+            "text": "AfterListen",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-after-listen"
+          },
+          {
+            "text": "AfterRoutesInit",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-after-routes-init"
+          },
+          {
+            "text": "PlatformRequest",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-request"
+          },
+          {
+            "text": "PlatformResponse",
+            "link": "/api/platform/platform-http/types/common/services/class-platform-response"
+          },
+          {
+            "text": "BeforeInit",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-before-init"
+          },
+          {
+            "text": "BeforeListen",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-before-listen"
+          },
+          {
+            "text": "BeforeRoutesInit",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-before-routes-init"
+          },
+          {
+            "text": "IncomingEvent",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-incoming-event"
+          },
+          {
+            "text": "OnReady",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-on-ready"
+          },
+          {
+            "text": "OnRequest",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-on-request"
+          },
+          {
+            "text": "OnResponse",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-on-response"
+          },
+          {
+            "text": "OnRoutesInit",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-on-routes-init"
+          },
+          {
+            "text": "Route",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-route"
+          },
+          {
+            "text": "RouteController",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-route-controller"
+          },
+          {
+            "text": "ResponseErrorObject",
+            "link": "/api/platform/platform-http/types/common/interfaces/interface-response-error-object"
+          },
+          {
+            "text": "PlatformAcceptMimesMiddleware",
+            "link": "/api/platform/platform-http/types/common/middlewares/class-platform-accept-mimes-middleware"
+          },
+          {
+            "text": "MulterInputOptions",
+            "link": "/api/platform/platform-http/types/common/middlewares/interface-multer-input-options"
+          },
+          {
+            "text": "MulterException",
+            "link": "/api/platform/platform-http/types/common/middlewares/class-multer-exception"
+          },
+          {
+            "text": "PlatformMulterMiddleware",
+            "link": "/api/platform/platform-http/types/common/middlewares/class-platform-multer-middleware"
+          },
+          {
+            "text": "PlatformJsonMapperSettings",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/interface-platform-json-mapper-settings"
+          },
+          {
+            "text": "PlatformRouterSettings",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/interface-platform-router-settings"
+          },
+          {
+            "text": "PlatformMulter",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/type-platform-multer"
+          },
+          {
+            "text": "PlatformMulterSettings",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/type-platform-multer-settings"
+          },
+          {
+            "text": "PlatformMulterFile",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/type-platform-multer-file"
+          },
+          {
+            "text": "PlatformMulterField",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/type-platform-multer-field"
+          },
+          {
+            "text": "PlatformStaticsOptions",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/interface-platform-statics-options"
+          },
+          {
+            "text": "PathOrStaticsOptions",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/type-path-or-statics-options"
+          },
+          {
+            "text": "PlatformStaticsSettings",
+            "link": "/api/platform/platform-http/types/common/config/interfaces/interface-platform-statics-settings"
+          },
+          {
+            "text": "PlatformConfiguration",
+            "link": "/api/platform/platform-http/types/common/config/services/class-platform-configuration"
+          },
+          {
+            "text": "MulterFileSize",
+            "link": "/api/platform/platform-http/types/common/decorators/multer/decorator-multer-file-size"
+          },
+          {
+            "text": "MulterOptions",
+            "link": "/api/platform/platform-http/types/common/decorators/multer/decorator-multer-options"
+          },
+          {
+            "text": "MultipartFile",
+            "link": "/api/platform/platform-http/types/common/decorators/multer/decorator-multipart-file"
+          },
+          {
+            "text": "Err",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-err"
+          },
+          {
+            "text": "Next",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-next"
+          },
+          {
+            "text": "Request",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-request"
+          },
+          {
+            "text": "Req",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-req"
+          },
+          {
+            "text": "Response",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-response"
+          },
+          {
+            "text": "Res",
+            "link": "/api/platform/platform-http/types/common/decorators/params/decorator-res"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-koa",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformKoa",
+            "link": "/api/platform/platform-koa/types/components/class-platform-koa"
+          },
+          {
+            "text": "PlatformKoaSettings",
+            "link": "/api/platform/platform-koa/types/interfaces/interface-platform-koa-settings"
+          },
+          {
+            "text": "KoaCtx",
+            "link": "/api/platform/platform-koa/types/decorators/decorator-koa-ctx"
+          },
+          {
+            "text": "Ctx",
+            "link": "/api/platform/platform-koa/types/decorators/decorator-ctx"
+          },
+          {
+            "text": "State",
+            "link": "/api/platform/platform-koa/types/decorators/decorator-state"
+          },
+          {
+            "text": "PlatformKoaRequest",
+            "link": "/api/platform/platform-koa/types/services/class-platform-koa-request"
+          },
+          {
+            "text": "PlatformKoaHandler",
+            "link": "/api/platform/platform-koa/types/services/class-platform-koa-handler"
+          },
+          {
+            "text": "PlatformKoaResponse",
+            "link": "/api/platform/platform-koa/types/services/class-platform-koa-response"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-log-middleware",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "LoggerRequestFields",
+            "link": "/api/platform/platform-log-middleware/types/domain/type-logger-request-fields"
+          },
+          {
+            "text": "PlatformLogMiddlewareSettings",
+            "link": "/api/platform/platform-log-middleware/types/domain/interface-platform-log-middleware-settings"
+          },
+          {
+            "text": "PlatformLogMiddleware",
+            "link": "/api/platform/platform-log-middleware/types/middlewares/class-platform-log-middleware"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-log-request",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "AlterLogCallback",
+            "link": "/api/platform/platform-log-request/types/domain/type-alter-log-callback"
+          },
+          {
+            "text": "PlatformLogRequestSettings",
+            "link": "/api/platform/platform-log-request/types/domain/interface-platform-log-request-settings"
+          },
+          {
+            "text": "PlatformLogRequestFactory",
+            "link": "/api/platform/platform-log-request/types/services/type-platform-log-request-factory"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-middlewares",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "AuthOptions",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-auth-options"
+          },
+          {
+            "text": "Middleware",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-middleware"
+          },
+          {
+            "text": "Use",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-use"
+          },
+          {
+            "text": "MiddlewareMethods",
+            "link": "/api/platform/platform-middlewares/types/domain/interface-middleware-methods"
+          },
+          {
+            "text": "UseAfter",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-use-after"
+          },
+          {
+            "text": "UseBefore",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-use-before"
+          },
+          {
+            "text": "UseAuth",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-use-auth"
+          },
+          {
+            "text": "UseBeforeEach",
+            "link": "/api/platform/platform-middlewares/types/decorators/decorator-use-before-each"
+          },
+          {
+            "text": "PlatformMiddlewareLoadingOptions",
+            "link": "/api/platform/platform-middlewares/types/domain/type-platform-middleware-loading-options"
+          },
+          {
+            "text": "PlatformMiddlewareSettings",
+            "link": "/api/platform/platform-middlewares/types/domain/type-platform-middleware-settings"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-params",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformParamsScope",
+            "link": "/api/platform/platform-params/types/builder/type-platform-params-scope"
+          },
+          {
+            "text": "PlatformParamsCallback",
+            "link": "/api/platform/platform-params/types/builder/type-platform-params-callback"
+          },
+          {
+            "text": "PlatformParams",
+            "link": "/api/platform/platform-params/types/builder/class-platform-params"
+          },
+          {
+            "text": "BodyParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-body-params"
+          },
+          {
+            "text": "RawBodyParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-raw-body-params"
+          },
+          {
+            "text": "CookiesParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-cookies-params"
+          },
+          {
+            "text": "Cookies",
+            "link": "/api/platform/platform-params/types/decorators/decorator-cookies"
+          },
+          {
+            "text": "Context",
+            "link": "/api/platform/platform-params/types/decorators/decorator-context"
+          },
+          {
+            "text": "HeaderParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-header-params"
+          },
+          {
+            "text": "Locals",
+            "link": "/api/platform/platform-params/types/decorators/decorator-locals"
+          },
+          {
+            "text": "PathParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-path-params"
+          },
+          {
+            "text": "RawPathParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-raw-path-params"
+          },
+          {
+            "text": "ParamFn",
+            "link": "/api/platform/platform-params/types/decorators/decorator-param-fn"
+          },
+          {
+            "text": "QueryParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-query-params"
+          },
+          {
+            "text": "RawQueryParams",
+            "link": "/api/platform/platform-params/types/decorators/decorator-raw-query-params"
+          },
+          {
+            "text": "Session",
+            "link": "/api/platform/platform-params/types/decorators/decorator-session"
+          },
+          {
+            "text": "UseParam",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-param"
+          },
+          {
+            "text": "UseDeserialization",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-deserialization"
+          },
+          {
+            "text": "UseParamExpression",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-param-expression"
+          },
+          {
+            "text": "UseParamType",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-param-type"
+          },
+          {
+            "text": "ParamOptions",
+            "link": "/api/platform/platform-params/types/domain/interface-param-options"
+          },
+          {
+            "text": "UsePipe",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-pipe"
+          },
+          {
+            "text": "UseValidation",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-validation"
+          },
+          {
+            "text": "UseType",
+            "link": "/api/platform/platform-params/types/decorators/decorator-use-type"
+          },
+          {
+            "text": "ParamTypes",
+            "link": "/api/platform/platform-params/types/domain/enum-param-types"
+          },
+          {
+            "text": "PARAM_TYPES_DATA_PATH",
+            "link": "/api/platform/platform-params/types/domain/const-param-types-data-path"
+          },
+          {
+            "text": "ParamValidationError",
+            "link": "/api/platform/platform-params/types/errors/class-param-validation-error"
+          },
+          {
+            "text": "RequiredValidationError",
+            "link": "/api/platform/platform-params/types/errors/class-required-validation-error"
+          },
+          {
+            "text": "ValidationError",
+            "link": "/api/platform/platform-params/types/errors/class-validation-error"
+          },
+          {
+            "text": "DeserializerPipe",
+            "link": "/api/platform/platform-params/types/pipes/class-deserializer-pipe"
+          },
+          {
+            "text": "ParseExpressionPipe",
+            "link": "/api/platform/platform-params/types/pipes/class-parse-expression-pipe"
+          },
+          {
+            "text": "ValidatorServiceMethods",
+            "link": "/api/platform/platform-params/types/pipes/interface-validator-service-methods"
+          },
+          {
+            "text": "ValidationPipe",
+            "link": "/api/platform/platform-params/types/pipes/class-validation-pipe"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-response-filter",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ResponseFilter",
+            "link": "/api/platform/platform-response-filter/types/decorators/decorator-response-filter"
+          },
+          {
+            "text": "TemplateRenderError",
+            "link": "/api/platform/platform-response-filter/types/errors/class-template-render-error"
+          },
+          {
+            "text": "ResponseFilterMethods",
+            "link": "/api/platform/platform-response-filter/types/interfaces/interface-response-filter-methods"
+          },
+          {
+            "text": "PLATFORM_CONTENT_TYPE_RESOLVER",
+            "link": "/api/platform/platform-response-filter/types/services/const-platform-content-type-resolver"
+          },
+          {
+            "text": "PLATFORM_CONTENT_TYPES_CONTAINER",
+            "link": "/api/platform/platform-response-filter/types/services/type-platform-content-types-container"
+          },
+          {
+            "text": "PlatformResponseFilter",
+            "link": "/api/platform/platform-response-filter/types/services/class-platform-response-filter"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-router",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformHandlerMetadataOpts",
+            "link": "/api/platform/platform-router/types/domain/interface-platform-handler-metadata-opts"
+          },
+          {
+            "text": "PlatformHandlerMetadataProps",
+            "link": "/api/platform/platform-router/types/domain/interface-platform-handler-metadata-props"
+          },
+          {
+            "text": "PlatformHandlerMetadata",
+            "link": "/api/platform/platform-router/types/domain/class-platform-handler-metadata"
+          },
+          {
+            "text": "PlatformHandlerType",
+            "link": "/api/platform/platform-router/types/domain/enum-platform-handler-type"
+          },
+          {
+            "text": "PlatformRouter",
+            "link": "/api/platform/platform-router/types/domain/class-platform-router"
+          },
+          {
+            "text": "PlatformLayerOptions",
+            "link": "/api/platform/platform-router/types/domain/interface-platform-layer-options"
+          },
+          {
+            "text": "PlatformLayerProps",
+            "link": "/api/platform/platform-router/types/domain/interface-platform-layer-props"
+          },
+          {
+            "text": "PlatformLayer",
+            "link": "/api/platform/platform-router/types/domain/class-platform-layer"
+          },
+          {
+            "text": "AlterEndpointHandlersArg",
+            "link": "/api/platform/platform-router/types/domain/interface-alter-endpoint-handlers-arg"
+          },
+          {
+            "text": "PlatformRouters",
+            "link": "/api/platform/platform-router/types/domain/class-platform-routers"
+          },
+          {
+            "text": "SinglePathType",
+            "link": "/api/platform/platform-router/types/domain/type-single-path-type"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-serverless",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PlatformServerlessSettings",
+            "link": "/api/platform/platform-serverless/types/builder/interface-platform-serverless-settings"
+          },
+          {
+            "text": "PlatformServerless",
+            "link": "/api/platform/platform-serverless/types/builder/class-platform-serverless"
+          },
+          {
+            "text": "PlatformServerlessHandler",
+            "link": "/api/platform/platform-serverless/types/builder/class-platform-serverless-handler"
+          },
+          {
+            "text": "ServerlessRequest",
+            "link": "/api/platform/platform-serverless/types/domain/class-serverless-request"
+          },
+          {
+            "text": "ServerlessEvent",
+            "link": "/api/platform/platform-serverless/types/domain/type-serverless-event"
+          },
+          {
+            "text": "ServerlessContextOptions",
+            "link": "/api/platform/platform-serverless/types/domain/interface-serverless-context-options"
+          },
+          {
+            "text": "ServerlessContext",
+            "link": "/api/platform/platform-serverless/types/domain/class-serverless-context"
+          },
+          {
+            "text": "HeaderValue",
+            "link": "/api/platform/platform-serverless/types/domain/type-header-value"
+          },
+          {
+            "text": "ServerlessResponse",
+            "link": "/api/platform/platform-serverless/types/domain/class-serverless-response"
+          },
+          {
+            "text": "ServerlessResponseMeta",
+            "link": "/api/platform/platform-serverless/types/domain/type-serverless-response-meta"
+          },
+          {
+            "text": "RequestHandler",
+            "link": "/api/platform/platform-serverless/types/domain/type-request-handler"
+          },
+          {
+            "text": "ServerlessResponseStream",
+            "link": "/api/platform/platform-serverless/types/domain/class-serverless-response-stream"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-serverless-http",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ServerlessEvent",
+            "link": "/api/platform/platform-serverless-http/types/decorators/decorator-serverless-event"
+          },
+          {
+            "text": "ServerlessContext",
+            "link": "/api/platform/platform-serverless-http/types/decorators/decorator-serverless-context"
+          },
+          {
+            "text": "PlatformServerlessHttp",
+            "link": "/api/platform/platform-serverless-http/types/builder/class-platform-serverless-http"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-serverless-testing",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "LambdaPromiseResult",
+            "link": "/api/platform/platform-serverless-testing/types/interface-lambda-promise-result"
+          },
+          {
+            "text": "LambdaClientRequest",
+            "link": "/api/platform/platform-serverless-testing/types/class-lambda-client-request"
+          },
+          {
+            "text": "PlatformServerlessTest",
+            "link": "/api/platform/platform-serverless-testing/types/class-platform-serverless-test"
+          },
+          {
+            "text": "createFakeContext",
+            "link": "/api/platform/platform-serverless-testing/types/function-create-fake-context"
+          },
+          {
+            "text": "createFakeEvent",
+            "link": "/api/platform/platform-serverless-testing/types/function-create-fake-event"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/platform-views",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "View",
+            "link": "/api/platform/platform-views/types/decorators/const-view"
+          },
+          {
+            "text": "PlatformViews",
+            "link": "/api/platform/platform-views/types/services/class-platform-views"
+          },
+          {
+            "text": "PLATFORM_VIEWS_EXTENSIONS",
+            "link": "/api/platform/platform-views/types/domain/const-platform-views-extensions"
+          },
+          {
+            "text": "PlatformViewsExtensionsTypes",
+            "link": "/api/platform/platform-views/types/domain/type-platform-views-extensions-types"
+          },
+          {
+            "text": "PlatformViewsEngineOptions",
+            "link": "/api/platform/platform-views/types/domain/interface-platform-views-engine-options"
+          },
+          {
+            "text": "PlatformRenderOptions",
+            "link": "/api/platform/platform-views/types/domain/interface-platform-render-options"
+          },
+          {
+            "text": "PlatformViewWritableStream",
+            "link": "/api/platform/platform-views/types/domain/interface-platform-view-writable-stream"
+          },
+          {
+            "text": "PlatformViewEngine",
+            "link": "/api/platform/platform-views/types/domain/interface-platform-view-engine"
+          },
+          {
+            "text": "PlatformViewsSettings",
+            "link": "/api/platform/platform-views/types/domain/interface-platform-views-settings"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ORM",
+    "items": [
+      {
+        "text": "@tsed/adapters",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Indexed",
+            "link": "/api/orm/adapters/types/decorators/decorator-indexed"
+          },
+          {
+            "text": "adapter",
+            "link": "/api/orm/adapters/types/decorators/decorator-adapter"
+          },
+          {
+            "text": "InjectAdapter",
+            "link": "/api/orm/adapters/types/decorators/decorator-inject-adapter"
+          },
+          {
+            "text": "FileSyncAdapterConstructorOptions",
+            "link": "/api/orm/adapters/types/adapters/interface-file-sync-adapter-constructor-options"
+          },
+          {
+            "text": "FileSyncAdapter",
+            "link": "/api/orm/adapters/types/adapters/class-file-sync-adapter"
+          },
+          {
+            "text": "AdapterModel",
+            "link": "/api/orm/adapters/types/adapters/interface-adapter-model"
+          },
+          {
+            "text": "LowModel",
+            "link": "/api/orm/adapters/types/adapters/interface-low-model"
+          },
+          {
+            "text": "LowDbAdapter",
+            "link": "/api/orm/adapters/types/adapters/class-low-db-adapter"
+          },
+          {
+            "text": "AdaptersSettings",
+            "link": "/api/orm/adapters/types/domain/interface-adapters-settings"
+          },
+          {
+            "text": "MemoryAdapter",
+            "link": "/api/orm/adapters/types/adapters/class-memory-adapter"
+          },
+          {
+            "text": "AdapterInvokeOptions",
+            "link": "/api/orm/adapters/types/services/interface-adapter-invoke-options"
+          },
+          {
+            "text": "Adapters",
+            "link": "/api/orm/adapters/types/services/class-adapters"
+          },
+          {
+            "text": "AdapterConstructorOptions",
+            "link": "/api/orm/adapters/types/domain/interface-adapter-constructor-options"
+          },
+          {
+            "text": "Adapter",
+            "link": "/api/orm/adapters/types/domain/class-adapter"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/adapters-redis",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "OIDCRedisAdapter",
+            "link": "/api/orm/adapters-redis/types/adapters/class-oidc-redis-adapter"
+          },
+          {
+            "text": "RedisAdapterConstructorOptions",
+            "link": "/api/orm/adapters-redis/types/adapters/interface-redis-adapter-constructor-options"
+          },
+          {
+            "text": "RedisAdapter",
+            "link": "/api/orm/adapters-redis/types/adapters/class-redis-adapter"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/ioredis",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ClusterConfiguration",
+            "link": "/api/orm/ioredis/types/domain/type-cluster-configuration"
+          },
+          {
+            "text": "BaseIORedisConfiguration",
+            "link": "/api/orm/ioredis/types/domain/interface-base-io-redis-configuration"
+          },
+          {
+            "text": "IORedisConfiguration",
+            "link": "/api/orm/ioredis/types/domain/type-io-redis-configuration"
+          },
+          {
+            "text": "RedisClusterConfig",
+            "link": "/api/orm/ioredis/types/domain/interface-redis-cluster-config"
+          },
+          {
+            "text": "IORedisStoreCtrOptions",
+            "link": "/api/orm/ioredis/types/domain/type-io-redis-store-ctr-options"
+          },
+          {
+            "text": "IORedisStore",
+            "link": "/api/orm/ioredis/types/domain/class-io-redis-store"
+          },
+          {
+            "text": "ioRedisStore",
+            "link": "/api/orm/ioredis/types/domain/function-io-redis-store"
+          },
+          {
+            "text": "IORedisTest",
+            "link": "/api/orm/ioredis/types/domain/class-io-redis-test"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/mikro-orm",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "MikroOrmModule",
+            "link": "/api/orm/mikro-orm/types/class-mikro-orm-module"
+          },
+          {
+            "text": "DEFAULT_CONTEXT_NAME",
+            "link": "/api/orm/mikro-orm/types/const-default-context-name"
+          },
+          {
+            "text": "SUBSCRIBER_INJECTION_TYPE",
+            "link": "/api/orm/mikro-orm/types/const-subscriber-injection-type"
+          },
+          {
+            "text": "entityManager",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-entity-manager"
+          },
+          {
+            "text": "EntityManager",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-entity-manager"
+          },
+          {
+            "text": "Em",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-em"
+          },
+          {
+            "text": "orm",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-orm"
+          },
+          {
+            "text": "Orm",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-orm"
+          },
+          {
+            "text": "Subscriber",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-subscriber"
+          },
+          {
+            "text": "Transactional",
+            "link": "/api/orm/mikro-orm/types/decorators/decorator-transactional"
+          },
+          {
+            "text": "OptimisticLockErrorFilter",
+            "link": "/api/orm/mikro-orm/types/filters/class-optimistic-lock-error-filter"
+          },
+          {
+            "text": "AfterTransactionCommit",
+            "link": "/api/orm/mikro-orm/types/interfaces/interface-after-transaction-commit"
+          },
+          {
+            "text": "BeforeTransactionCommit",
+            "link": "/api/orm/mikro-orm/types/interfaces/interface-before-transaction-commit"
+          },
+          {
+            "text": "RetryStrategy",
+            "link": "/api/orm/mikro-orm/types/interfaces/interface-retry-strategy"
+          },
+          {
+            "text": "TransactionOptions",
+            "link": "/api/orm/mikro-orm/types/interceptors/interface-transaction-options"
+          },
+          {
+            "text": "TransactionalInterceptor",
+            "link": "/api/orm/mikro-orm/types/interceptors/class-transactional-interceptor"
+          },
+          {
+            "text": "MikroOrmContext",
+            "link": "/api/orm/mikro-orm/types/services/class-mikro-orm-context"
+          },
+          {
+            "text": "MikroOrmFactory",
+            "link": "/api/orm/mikro-orm/types/services/class-mikro-orm-factory"
+          },
+          {
+            "text": "MikroOrmRegistry",
+            "link": "/api/orm/mikro-orm/types/services/class-mikro-orm-registry"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/mongoose",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Indexed",
+            "link": "/api/orm/mongoose/types/decorators/decorator-indexed"
+          },
+          {
+            "text": "Auto",
+            "link": "/api/orm/mongoose/types/decorators/decorator-auto"
+          },
+          {
+            "text": "DynamicRef",
+            "link": "/api/orm/mongoose/types/decorators/decorator-dynamic-ref"
+          },
+          {
+            "text": "ExcludeIndexes",
+            "link": "/api/orm/mongoose/types/decorators/decorator-exclude-indexes"
+          },
+          {
+            "text": "Expires",
+            "link": "/api/orm/mongoose/types/decorators/decorator-expires"
+          },
+          {
+            "text": "Immutable",
+            "link": "/api/orm/mongoose/types/decorators/decorator-immutable"
+          },
+          {
+            "text": "Lowercase",
+            "link": "/api/orm/mongoose/types/decorators/decorator-lowercase"
+          },
+          {
+            "text": "Model",
+            "link": "/api/orm/mongoose/types/decorators/decorator-model"
+          },
+          {
+            "text": "MongooseIndex",
+            "link": "/api/orm/mongoose/types/decorators/decorator-mongoose-index"
+          },
+          {
+            "text": "MongoosePlugin",
+            "link": "/api/orm/mongoose/types/decorators/decorator-mongoose-plugin"
+          },
+          {
+            "text": "DecimalFormat",
+            "link": "/api/orm/mongoose/types/decorators/class-decimal-format"
+          },
+          {
+            "text": "NumberDecimal",
+            "link": "/api/orm/mongoose/types/decorators/decorator-number-decimal"
+          },
+          {
+            "text": "Decimal128",
+            "link": "/api/orm/mongoose/types/decorators/type-decimal-128"
+          },
+          {
+            "text": "MongooseIndexes",
+            "link": "/api/orm/mongoose/types/decorators/decorator-mongoose-indexes"
+          },
+          {
+            "text": "ObjectID",
+            "link": "/api/orm/mongoose/types/decorators/decorator-object-id"
+          },
+          {
+            "text": "PostHook",
+            "link": "/api/orm/mongoose/types/decorators/decorator-post-hook"
+          },
+          {
+            "text": "PreHook",
+            "link": "/api/orm/mongoose/types/decorators/decorator-pre-hook"
+          },
+          {
+            "text": "Ref",
+            "link": "/api/orm/mongoose/types/decorators/decorator-ref"
+          },
+          {
+            "text": "Schema",
+            "link": "/api/orm/mongoose/types/decorators/decorator-schema"
+          },
+          {
+            "text": "MongooseSchema",
+            "link": "/api/orm/mongoose/types/decorators/decorator-mongoose-schema"
+          },
+          {
+            "text": "SchemaIgnore",
+            "link": "/api/orm/mongoose/types/decorators/decorator-schema-ignore"
+          },
+          {
+            "text": "Select",
+            "link": "/api/orm/mongoose/types/decorators/decorator-select"
+          },
+          {
+            "text": "Text",
+            "link": "/api/orm/mongoose/types/decorators/decorator-text"
+          },
+          {
+            "text": "Sparse",
+            "link": "/api/orm/mongoose/types/decorators/decorator-sparse"
+          },
+          {
+            "text": "Trim",
+            "link": "/api/orm/mongoose/types/decorators/decorator-trim"
+          },
+          {
+            "text": "MongooseConnectionOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-connection-options"
+          },
+          {
+            "text": "Unique",
+            "link": "/api/orm/mongoose/types/decorators/decorator-unique"
+          },
+          {
+            "text": "Uppercase",
+            "link": "/api/orm/mongoose/types/decorators/decorator-uppercase"
+          },
+          {
+            "text": "VersionKey",
+            "link": "/api/orm/mongoose/types/decorators/decorator-version-key"
+          },
+          {
+            "text": "VirtualRef",
+            "link": "/api/orm/mongoose/types/decorators/decorator-virtual-ref"
+          },
+          {
+            "text": "VirtualRefs",
+            "link": "/api/orm/mongoose/types/decorators/type-virtual-refs"
+          },
+          {
+            "text": "MongooseModelOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-model-options"
+          },
+          {
+            "text": "MongooseDocument",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-document"
+          },
+          {
+            "text": "MongooseMergedDocument",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-merged-document"
+          },
+          {
+            "text": "MongooseDocumentMethods",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-document-methods"
+          },
+          {
+            "text": "MongooseModel",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-model"
+          },
+          {
+            "text": "MongooseMethod",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-method"
+          },
+          {
+            "text": "MongooseMethods",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-methods"
+          },
+          {
+            "text": "MongooseNextCB",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-next-cb"
+          },
+          {
+            "text": "MongooseHookOptions",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-hook-options"
+          },
+          {
+            "text": "MongooseHookPromised",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-hook-promised"
+          },
+          {
+            "text": "MongoosePreHookCB",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-pre-hook-cb"
+          },
+          {
+            "text": "MongoosePostHookCB",
+            "link": "/api/orm/mongoose/types/interfaces/type-mongoose-post-hook-cb"
+          },
+          {
+            "text": "MongoosePreHook",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-pre-hook"
+          },
+          {
+            "text": "MongoosePostHook",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-post-hook"
+          },
+          {
+            "text": "MongoosePluginOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-plugin-options"
+          },
+          {
+            "text": "MongooseIndexOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-index-options"
+          },
+          {
+            "text": "MongooseSchemaOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-schema-options"
+          },
+          {
+            "text": "MongooseSchemaTypes",
+            "link": "/api/orm/mongoose/types/interfaces/enum-mongoose-schema-types"
+          },
+          {
+            "text": "MongooseVirtualRefOptions",
+            "link": "/api/orm/mongoose/types/interfaces/interface-mongoose-virtual-ref-options"
+          },
+          {
+            "text": "MongooseService",
+            "link": "/api/orm/mongoose/types/services/class-mongoose-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/objection",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "BelongsToOne",
+            "link": "/api/orm/objection/types/decorators/decorator-belongs-to-one"
+          },
+          {
+            "text": "ColumnOptions",
+            "link": "/api/orm/objection/types/decorators/decorator-column-options"
+          },
+          {
+            "text": "DecimalOptions",
+            "link": "/api/orm/objection/types/decorators/interface-decimal-options"
+          },
+          {
+            "text": "Decimal",
+            "link": "/api/orm/objection/types/decorators/decorator-decimal"
+          },
+          {
+            "text": "Entity",
+            "link": "/api/orm/objection/types/decorators/decorator-entity"
+          },
+          {
+            "text": "EntityMethods",
+            "link": "/api/orm/objection/types/decorators/interface-entity-methods"
+          },
+          {
+            "text": "HasMany",
+            "link": "/api/orm/objection/types/decorators/decorator-has-many"
+          },
+          {
+            "text": "HasOneThroughRelation",
+            "link": "/api/orm/objection/types/decorators/decorator-has-one-through-relation"
+          },
+          {
+            "text": "HasOne",
+            "link": "/api/orm/objection/types/decorators/decorator-has-one"
+          },
+          {
+            "text": "ColumnOpts",
+            "link": "/api/orm/objection/types/domain/interface-column-opts"
+          },
+          {
+            "text": "IdColumn",
+            "link": "/api/orm/objection/types/decorators/decorator-id-column"
+          },
+          {
+            "text": "ManyToMany",
+            "link": "/api/orm/objection/types/decorators/decorator-many-to-many"
+          },
+          {
+            "text": "RelatesTo",
+            "link": "/api/orm/objection/types/decorators/decorator-relates-to"
+          },
+          {
+            "text": "RelationshipOptsWithThrough",
+            "link": "/api/orm/objection/types/domain/type-relationship-opts-with-through"
+          },
+          {
+            "text": "RelationshipOptsWithoutThrough",
+            "link": "/api/orm/objection/types/domain/type-relationship-opts-without-through"
+          },
+          {
+            "text": "RelationshipOpts",
+            "link": "/api/orm/objection/types/domain/type-relationship-opts"
+          },
+          {
+            "text": "isRelationshipOptsWithThrough",
+            "link": "/api/orm/objection/types/domain/function-is-relationship-opts-with-through"
+          },
+          {
+            "text": "isModelClassFactory",
+            "link": "/api/orm/objection/types/domain/function-is-model-class-factory"
+          },
+          {
+            "text": "OBJECTION_CONNECTION",
+            "link": "/api/orm/objection/types/services/const-objection-connection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Third parties",
+    "items": [
+      {
+        "text": "@tsed/agenda",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "AgendaModule",
+            "link": "/api/third-parties/agenda/types/class-agenda-module"
+          },
+          {
+            "text": "Agenda",
+            "link": "/api/third-parties/agenda/types/decorators/decorator-agenda"
+          },
+          {
+            "text": "Define",
+            "link": "/api/third-parties/agenda/types/decorators/decorator-define"
+          },
+          {
+            "text": "Every",
+            "link": "/api/third-parties/agenda/types/decorators/decorator-every"
+          },
+          {
+            "text": "AgendaService",
+            "link": "/api/third-parties/agenda/types/services/const-agenda-service"
+          },
+          {
+            "text": "DefineOptions",
+            "link": "/api/third-parties/agenda/types/interfaces/interface-define-options"
+          },
+          {
+            "text": "EveryOptions",
+            "link": "/api/third-parties/agenda/types/interfaces/type-every-options"
+          },
+          {
+            "text": "AgendaStore",
+            "link": "/api/third-parties/agenda/types/interfaces/interface-agenda-store"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/ajv",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "FormatsMethods",
+            "link": "/api/specs/ajv/types/interfaces/interface-formats-methods"
+          },
+          {
+            "text": "FormatsOptions",
+            "link": "/api/specs/ajv/types/decorators/type-formats-options"
+          },
+          {
+            "text": "Formats",
+            "link": "/api/specs/ajv/types/decorators/decorator-formats"
+          },
+          {
+            "text": "KeywordOptions",
+            "link": "/api/specs/ajv/types/decorators/type-keyword-options"
+          },
+          {
+            "text": "Keyword",
+            "link": "/api/specs/ajv/types/decorators/decorator-keyword"
+          },
+          {
+            "text": "AjvValidationError",
+            "link": "/api/specs/ajv/types/errors/class-ajv-validation-error"
+          },
+          {
+            "text": "AjvDataValidationCtx",
+            "link": "/api/specs/ajv/types/interfaces/interface-ajv-data-validation-ctx"
+          },
+          {
+            "text": "AjvDataValidateFunction",
+            "link": "/api/specs/ajv/types/interfaces/interface-ajv-data-validate-function"
+          },
+          {
+            "text": "AjvSchemaValidateFunction",
+            "link": "/api/specs/ajv/types/interfaces/interface-ajv-schema-validate-function"
+          },
+          {
+            "text": "KeywordMethods",
+            "link": "/api/specs/ajv/types/interfaces/interface-keyword-methods"
+          },
+          {
+            "text": "AjvErrorObject",
+            "link": "/api/specs/ajv/types/interfaces/interface-ajv-error-object"
+          },
+          {
+            "text": "ErrorFormatter",
+            "link": "/api/specs/ajv/types/interfaces/type-error-formatter"
+          },
+          {
+            "text": "IAjvSettings",
+            "link": "/api/specs/ajv/types/interfaces/interface-i-ajv-settings"
+          },
+          {
+            "text": "AjvValidateOptions",
+            "link": "/api/specs/ajv/types/services/interface-ajv-validate-options"
+          },
+          {
+            "text": "AjvService",
+            "link": "/api/specs/ajv/types/services/class-ajv-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/apollo",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ApolloModule",
+            "link": "/api/graphql/apollo/types/class-apollo-module"
+          },
+          {
+            "text": "DataSource",
+            "link": "/api/graphql/apollo/types/decorators/decorator-data-source"
+          },
+          {
+            "text": "DataSourceService",
+            "link": "/api/graphql/apollo/types/decorators/const-data-source-service"
+          },
+          {
+            "text": "AlterApolloContext",
+            "link": "/api/graphql/apollo/types/interfaces/interface-alter-apollo-context"
+          },
+          {
+            "text": "AlterApolloServerPlugins",
+            "link": "/api/graphql/apollo/types/interfaces/interface-alter-apollo-server-plugins"
+          },
+          {
+            "text": "AlterApolloSettings",
+            "link": "/api/graphql/apollo/types/interfaces/interface-alter-apollo-settings"
+          },
+          {
+            "text": "ApolloContext",
+            "link": "/api/graphql/apollo/types/interfaces/interface-apollo-context"
+          },
+          {
+            "text": "InjectApolloContext",
+            "link": "/api/graphql/apollo/types/decorators/decorator-inject-apollo-context"
+          },
+          {
+            "text": "ApolloMiddlewareOptions",
+            "link": "/api/graphql/apollo/types/interfaces/type-apollo-middleware-options"
+          },
+          {
+            "text": "ApolloCustomServerCB",
+            "link": "/api/graphql/apollo/types/interfaces/type-apollo-custom-server-cb"
+          },
+          {
+            "text": "ApolloServerOptionsBase",
+            "link": "/api/graphql/apollo/types/interfaces/type-apollo-server-options-base"
+          },
+          {
+            "text": "ApolloSettings",
+            "link": "/api/graphql/apollo/types/interfaces/type-apollo-settings"
+          },
+          {
+            "text": "ApolloSettingsWithID",
+            "link": "/api/graphql/apollo/types/interfaces/type-apollo-settings-with-id"
+          },
+          {
+            "text": "ApolloService",
+            "link": "/api/graphql/apollo/types/services/class-apollo-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/bullmq",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "BullMQModule",
+            "link": "/api/third-parties/bullmq/types/class-bull-mq-module"
+          },
+          {
+            "text": "JobMethods",
+            "link": "/api/third-parties/bullmq/types/contracts/interface-job-methods"
+          },
+          {
+            "text": "BullMQConfig",
+            "link": "/api/third-parties/bullmq/types/config/type-bull-mq-config"
+          },
+          {
+            "text": "JobStore",
+            "link": "/api/third-parties/bullmq/types/contracts/interface-job-store"
+          },
+          {
+            "text": "InjectQueue",
+            "link": "/api/third-parties/bullmq/types/decorators/decorator-inject-queue"
+          },
+          {
+            "text": "InjectWorker",
+            "link": "/api/third-parties/bullmq/types/decorators/decorator-inject-worker"
+          },
+          {
+            "text": "JobController",
+            "link": "/api/third-parties/bullmq/types/decorators/decorator-job-controller"
+          },
+          {
+            "text": "FallbackJobController",
+            "link": "/api/third-parties/bullmq/types/decorators/decorator-fallback-job-controller"
+          },
+          {
+            "text": "JobDispatcherOptions",
+            "link": "/api/third-parties/bullmq/types/dispatchers/interface-job-dispatcher-options"
+          },
+          {
+            "text": "JobDispatcher",
+            "link": "/api/third-parties/bullmq/types/dispatchers/class-job-dispatcher"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/event-emitter",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "EventEmitterModule",
+            "link": "/api/third-parties/event-emitter/types/class-event-emitter-module"
+          },
+          {
+            "text": "OnEvent",
+            "link": "/api/third-parties/event-emitter/types/decorators/decorator-on-event"
+          },
+          {
+            "text": "EventEmitterStore",
+            "link": "/api/third-parties/event-emitter/types/interfaces/interface-event-emitter-store"
+          },
+          {
+            "text": "OnAny",
+            "link": "/api/third-parties/event-emitter/types/decorators/decorator-on-any"
+          },
+          {
+            "text": "EventEmitterService",
+            "link": "/api/third-parties/event-emitter/types/services/const-event-emitter-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/formio",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "FormioModule",
+            "link": "/api/third-parties/formio/types/class-formio-module"
+          },
+          {
+            "text": "FormioMapper",
+            "link": "/api/third-parties/formio/types/builder/class-formio-mapper"
+          },
+          {
+            "text": "AlterActions",
+            "link": "/api/third-parties/formio/types/components/class-alter-actions"
+          },
+          {
+            "text": "AlterAudit",
+            "link": "/api/third-parties/formio/types/components/class-alter-audit"
+          },
+          {
+            "text": "AlterHost",
+            "link": "/api/third-parties/formio/types/components/class-alter-host"
+          },
+          {
+            "text": "AlterLog",
+            "link": "/api/third-parties/formio/types/components/class-alter-log"
+          },
+          {
+            "text": "AlterSkip",
+            "link": "/api/third-parties/formio/types/components/class-alter-skip"
+          },
+          {
+            "text": "AlterTemplateExportSteps",
+            "link": "/api/third-parties/formio/types/components/class-alter-template-export-steps"
+          },
+          {
+            "text": "AlterTemplateImportSteps",
+            "link": "/api/third-parties/formio/types/components/class-alter-template-import-steps"
+          },
+          {
+            "text": "ActionCtx",
+            "link": "/api/third-parties/formio/types/decorators/decorator-action-ctx"
+          },
+          {
+            "text": "Action",
+            "link": "/api/third-parties/formio/types/decorators/decorator-action"
+          },
+          {
+            "text": "Alter",
+            "link": "/api/third-parties/formio/types/decorators/decorator-alter"
+          },
+          {
+            "text": "AlterHook",
+            "link": "/api/third-parties/formio/types/domain/interface-alter-hook"
+          },
+          {
+            "text": "FormioBase",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-base"
+          },
+          {
+            "text": "FormioMiddlewares",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-middlewares"
+          },
+          {
+            "text": "Formio",
+            "link": "/api/third-parties/formio/types/domain/interface-formio"
+          },
+          {
+            "text": "On",
+            "link": "/api/third-parties/formio/types/decorators/decorator-on"
+          },
+          {
+            "text": "UseFormioAuth",
+            "link": "/api/third-parties/formio/types/decorators/decorator-use-formio-auth"
+          },
+          {
+            "text": "FormioActionModel",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-action-model"
+          },
+          {
+            "text": "FormioActionMongooseSchema",
+            "link": "/api/third-parties/formio/types/domain/type-formio-action-mongoose-schema"
+          },
+          {
+            "text": "SetActionItemMessage",
+            "link": "/api/third-parties/formio/types/domain/type-set-action-item-message"
+          },
+          {
+            "text": "FormioActionModelCtor",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-action-model-ctor"
+          },
+          {
+            "text": "ActionMethods",
+            "link": "/api/third-parties/formio/types/domain/interface-action-methods"
+          },
+          {
+            "text": "FormioActions",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-actions"
+          },
+          {
+            "text": "FormioActionsIndex",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-actions-index"
+          },
+          {
+            "text": "FormioAuth",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-auth"
+          },
+          {
+            "text": "FormioJwtConfig",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-jwt-config"
+          },
+          {
+            "text": "FormioEmailConfig",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-email-config"
+          },
+          {
+            "text": "FormioConfig",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-config"
+          },
+          {
+            "text": "FormioCtxMapper",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-ctx-mapper"
+          },
+          {
+            "text": "FormioMongooseSchema",
+            "link": "/api/third-parties/formio/types/domain/type-formio-mongoose-schema"
+          },
+          {
+            "text": "FormioBaseModel",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-base-model"
+          },
+          {
+            "text": "FormioModel",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-model"
+          },
+          {
+            "text": "FormioDecodedToken",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-decoded-token"
+          },
+          {
+            "text": "FormioPayloadToken",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-payload-token"
+          },
+          {
+            "text": "FormioErrors",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-errors"
+          },
+          {
+            "text": "FormioJs",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-js"
+          },
+          {
+            "text": "FormioInitEvent",
+            "link": "/api/third-parties/formio/types/domain/type-formio-init-event"
+          },
+          {
+            "text": "FormioHooks",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-hooks"
+          },
+          {
+            "text": "FormioHook",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-hook"
+          },
+          {
+            "text": "WithID",
+            "link": "/api/third-parties/formio/types/domain/type-with-id"
+          },
+          {
+            "text": "FormioSchemas",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-schemas"
+          },
+          {
+            "text": "FormioModelsModels",
+            "link": "/api/third-parties/formio/types/domain/type-formio-models-models"
+          },
+          {
+            "text": "FormioModels",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-models"
+          },
+          {
+            "text": "FormioRouter",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-router"
+          },
+          {
+            "text": "FormioSettings",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-settings"
+          },
+          {
+            "text": "FormioTemplate",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-template"
+          },
+          {
+            "text": "FormioExportOptions",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-export-options"
+          },
+          {
+            "text": "FormioTemplateUtil",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-template-util"
+          },
+          {
+            "text": "FormioUpdate",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-update"
+          },
+          {
+            "text": "FormioUtil",
+            "link": "/api/third-parties/formio/types/domain/interface-formio-util"
+          },
+          {
+            "text": "OnHook",
+            "link": "/api/third-parties/formio/types/domain/interface-on-hook"
+          },
+          {
+            "text": "ResourceHttpHandler",
+            "link": "/api/third-parties/formio/types/domain/type-resource-http-handler"
+          },
+          {
+            "text": "ResourceHttpMethodOptions",
+            "link": "/api/third-parties/formio/types/domain/interface-resource-http-method-options"
+          },
+          {
+            "text": "ResourceRestOptions",
+            "link": "/api/third-parties/formio/types/domain/interface-resource-rest-options"
+          },
+          {
+            "text": "FormioAuthMiddleware",
+            "link": "/api/third-parties/formio/types/middlewares/class-formio-auth-middleware"
+          },
+          {
+            "text": "FormioAuthService",
+            "link": "/api/third-parties/formio/types/services/class-formio-auth-service"
+          },
+          {
+            "text": "FormioDatabase",
+            "link": "/api/third-parties/formio/types/services/class-formio-database"
+          },
+          {
+            "text": "FormioHooksService",
+            "link": "/api/third-parties/formio/types/services/class-formio-hooks-service"
+          },
+          {
+            "text": "FormioInstaller",
+            "link": "/api/third-parties/formio/types/services/class-formio-installer"
+          },
+          {
+            "text": "FormioRepository",
+            "link": "/api/third-parties/formio/types/services/class-formio-repository"
+          },
+          {
+            "text": "FormioService",
+            "link": "/api/third-parties/formio/types/services/class-formio-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/formio-types",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "FormioAccess",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-access"
+          },
+          {
+            "text": "FormioAction",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-action"
+          },
+          {
+            "text": "FormioActionInfo",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-action-info"
+          },
+          {
+            "text": "FormioComponent",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-component"
+          },
+          {
+            "text": "FormioActionItem",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-action-item"
+          },
+          {
+            "text": "FormioForm",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-form"
+          },
+          {
+            "text": "FormioPermission",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-permission"
+          },
+          {
+            "text": "FormioRole",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-role"
+          },
+          {
+            "text": "FormioSchema",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-schema"
+          },
+          {
+            "text": "FormioSubmission",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-submission"
+          },
+          {
+            "text": "FormioToken",
+            "link": "/api/third-parties/formio-types/types/domain/interface-formio-token"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/graphql-ws",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GraphQLWSOptions",
+            "link": "/api/graphql/graphql-ws/types/interface-graph-qlws-options"
+          },
+          {
+            "text": "GraphQLWSModule",
+            "link": "/api/graphql/graphql-ws/types/class-graph-qlws-module"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/jwks",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "JwksKeyParameters",
+            "link": "/api/security/jwks/types/interface-jwks-key-parameters"
+          },
+          {
+            "text": "JwksOptions",
+            "link": "/api/security/jwks/types/interface-jwks-options"
+          },
+          {
+            "text": "generateJwks",
+            "link": "/api/security/jwks/types/function-generate-jwks"
+          },
+          {
+            "text": "getJwks",
+            "link": "/api/security/jwks/types/function-get-jwks"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/normalize-path",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "normalizePath",
+            "link": "/api/third-parties/normalize-path/types/function-normalize-path"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/oidc-provider",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "OidcModule",
+            "link": "/api/security/oidc-provider/types/class-oidc-module"
+          },
+          {
+            "text": "GrantId",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-grant-id"
+          },
+          {
+            "text": "InteractionsOptions",
+            "link": "/api/security/oidc-provider/types/decorators/interface-interactions-options"
+          },
+          {
+            "text": "Interactions",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-interactions"
+          },
+          {
+            "text": "Interaction",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-interaction"
+          },
+          {
+            "text": "NoCache",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-no-cache"
+          },
+          {
+            "text": "OidcCtx",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-oidc-ctx"
+          },
+          {
+            "text": "OidcSession",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-oidc-session"
+          },
+          {
+            "text": "Params",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-params"
+          },
+          {
+            "text": "InteractionMethods",
+            "link": "/api/security/oidc-provider/types/domain/interface-interaction-methods"
+          },
+          {
+            "text": "OidcAccountsMethods",
+            "link": "/api/security/oidc-provider/types/domain/interface-oidc-accounts-methods"
+          },
+          {
+            "text": "Prompt",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-prompt"
+          },
+          {
+            "text": "Uid",
+            "link": "/api/security/oidc-provider/types/decorators/decorator-uid"
+          },
+          {
+            "text": "OidcBadInteractionName",
+            "link": "/api/security/oidc-provider/types/domain/class-oidc-bad-interaction-name"
+          },
+          {
+            "text": "OidcInteractionMethods",
+            "link": "/api/security/oidc-provider/types/domain/interface-oidc-interaction-methods"
+          },
+          {
+            "text": "OidcInteractionOptions",
+            "link": "/api/security/oidc-provider/types/domain/interface-oidc-interaction-options"
+          },
+          {
+            "text": "OidcSettings",
+            "link": "/api/security/oidc-provider/types/domain/interface-oidc-settings"
+          },
+          {
+            "text": "OidcInteractionPromptProps",
+            "link": "/api/security/oidc-provider/types/domain/type-oidc-interaction-prompt-props"
+          },
+          {
+            "text": "OIDCContext",
+            "link": "/api/security/oidc-provider/types/domain/type-oidc-context"
+          },
+          {
+            "text": "OidcClient",
+            "link": "/api/security/oidc-provider/types/domain/type-oidc-client"
+          },
+          {
+            "text": "DefaultPolicy",
+            "link": "/api/security/oidc-provider/types/domain/type-default-policy"
+          },
+          {
+            "text": "AuthorizationCode",
+            "link": "/api/security/oidc-provider/types/domain/type-authorization-code"
+          },
+          {
+            "text": "AccessToken",
+            "link": "/api/security/oidc-provider/types/domain/type-access-token"
+          },
+          {
+            "text": "ClientCredentials",
+            "link": "/api/security/oidc-provider/types/domain/type-client-credentials"
+          },
+          {
+            "text": "DeviceCode",
+            "link": "/api/security/oidc-provider/types/domain/type-device-code"
+          },
+          {
+            "text": "RefreshToken",
+            "link": "/api/security/oidc-provider/types/domain/type-refresh-token"
+          },
+          {
+            "text": "BackchannelAuthenticationRequest",
+            "link": "/api/security/oidc-provider/types/domain/type-backchannel-authentication-request"
+          },
+          {
+            "text": "Grant",
+            "link": "/api/security/oidc-provider/types/domain/type-grant"
+          },
+          {
+            "text": "OidcInteraction",
+            "link": "/api/security/oidc-provider/types/domain/type-oidc-interaction"
+          },
+          {
+            "text": "OidcNoCacheMiddleware",
+            "link": "/api/security/oidc-provider/types/middlewares/class-oidc-no-cache-middleware"
+          },
+          {
+            "text": "OidcInteractionMiddleware",
+            "link": "/api/security/oidc-provider/types/middlewares/class-oidc-interaction-middleware"
+          },
+          {
+            "text": "OidcSecureMiddleware",
+            "link": "/api/security/oidc-provider/types/middlewares/class-oidc-secure-middleware"
+          },
+          {
+            "text": "OidcAdapterMethods",
+            "link": "/api/security/oidc-provider/types/services/type-oidc-adapter-methods"
+          },
+          {
+            "text": "OidcAdapters",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-adapters"
+          },
+          {
+            "text": "OidcInteractionContext",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-interaction-context"
+          },
+          {
+            "text": "OidcInteractions",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-interactions"
+          },
+          {
+            "text": "OidcJwks",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-jwks"
+          },
+          {
+            "text": "OidcPolicy",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-policy"
+          },
+          {
+            "text": "OidcProvider",
+            "link": "/api/security/oidc-provider/types/services/class-oidc-provider"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/oidc-provider-plugin-wildcard-redirect-uri",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "OidcWildcardRedirectUriModule",
+            "link": "/api/security/oidc-provider-plugin-wildcard-redirect-uri/types/class-oidc-wildcard-redirect-uri-module"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/openspec",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "OpenSpecExternalDocs",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-external-docs"
+          },
+          {
+            "text": "OpenSpecHash",
+            "link": "/api/specs/openspec/types/common/type-open-spec-hash"
+          },
+          {
+            "text": "OpenSpecContact",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-contact"
+          },
+          {
+            "text": "OpenSpecLicense",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-license"
+          },
+          {
+            "text": "OpenSpecInfo",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-info"
+          },
+          {
+            "text": "OpenSpecBaseJsonSchema",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-base-json-schema"
+          },
+          {
+            "text": "OpenSpecJsonSchema",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-json-schema"
+          },
+          {
+            "text": "OpenSpecPath",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-path"
+          },
+          {
+            "text": "OpenSpecRef",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-ref"
+          },
+          {
+            "text": "OpenSpecSecurity",
+            "link": "/api/specs/openspec/types/common/type-open-spec-security"
+          },
+          {
+            "text": "OpenSpecTag",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-tag"
+          },
+          {
+            "text": "OpenSpecXML",
+            "link": "/api/specs/openspec/types/common/interface-open-spec-xml"
+          },
+          {
+            "text": "OS2Header",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-header"
+          },
+          {
+            "text": "OpenSpecTypes",
+            "link": "/api/specs/openspec/types/common/type-open-spec-types"
+          },
+          {
+            "text": "OS2Versions",
+            "link": "/api/specs/openspec/types/common/type-os-2-versions"
+          },
+          {
+            "text": "OS3Versions",
+            "link": "/api/specs/openspec/types/common/type-os-3-versions"
+          },
+          {
+            "text": "OpenSpecVersions",
+            "link": "/api/specs/openspec/types/common/type-open-spec-versions"
+          },
+          {
+            "text": "OS2Operation",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-operation"
+          },
+          {
+            "text": "OS2Paths",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-paths"
+          },
+          {
+            "text": "OS2Response",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-response"
+          },
+          {
+            "text": "OS2XML",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-xml"
+          },
+          {
+            "text": "OS2BaseSchema",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-base-schema"
+          },
+          {
+            "text": "OS2Schema",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-schema"
+          },
+          {
+            "text": "OS2BaseParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-base-parameter"
+          },
+          {
+            "text": "OS2BodyParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-body-parameter"
+          },
+          {
+            "text": "OS2GenericFormat",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-generic-format"
+          },
+          {
+            "text": "OS2IntegerFormat",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-integer-format"
+          },
+          {
+            "text": "OS2NumberFormat",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-number-format"
+          },
+          {
+            "text": "OS2StringFormat",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-string-format"
+          },
+          {
+            "text": "OS2SchemaFormatConstraints",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-schema-format-constraints"
+          },
+          {
+            "text": "OS2BaseFormatContrainedParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-base-format-contrained-parameter"
+          },
+          {
+            "text": "ParameterCollectionFormat",
+            "link": "/api/specs/openspec/types/openspec2/type-parameter-collection-format"
+          },
+          {
+            "text": "OS2QueryParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-query-parameter"
+          },
+          {
+            "text": "OS2PathParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-path-parameter"
+          },
+          {
+            "text": "OS2HeaderParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-header-parameter"
+          },
+          {
+            "text": "OS2FormDataParameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-form-data-parameter"
+          },
+          {
+            "text": "OS2Parameter",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-parameter"
+          },
+          {
+            "text": "OpenSpec2",
+            "link": "/api/specs/openspec/types/openspec2/interface-open-spec-2"
+          },
+          {
+            "text": "OS3Components",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-components"
+          },
+          {
+            "text": "OS3Encoding",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-encoding"
+          },
+          {
+            "text": "OS2SecurityBase",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-security-base"
+          },
+          {
+            "text": "OS2SecurityBasic",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-security-basic"
+          },
+          {
+            "text": "OS2SecurityApiKey",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-security-api-key"
+          },
+          {
+            "text": "OS2SecurityOAuth",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-security-o-auth"
+          },
+          {
+            "text": "OS2FlowImplicit",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-flow-implicit"
+          },
+          {
+            "text": "OS2FlowPassword",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-flow-password"
+          },
+          {
+            "text": "OS2FlowApplication",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-flow-application"
+          },
+          {
+            "text": "OS2FlowAccessCode",
+            "link": "/api/specs/openspec/types/openspec2/interface-os-2-flow-access-code"
+          },
+          {
+            "text": "OS2Security",
+            "link": "/api/specs/openspec/types/openspec2/type-os-2-security"
+          },
+          {
+            "text": "OS3Callbacks",
+            "link": "/api/specs/openspec/types/openspec3/type-os-3-callbacks"
+          },
+          {
+            "text": "OS3Example",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-example"
+          },
+          {
+            "text": "OS3Flow",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flow"
+          },
+          {
+            "text": "OS3FlowImplicit",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flow-implicit"
+          },
+          {
+            "text": "OS3FlowPassword",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flow-password"
+          },
+          {
+            "text": "OS3FlowClientCredentials",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flow-client-credentials"
+          },
+          {
+            "text": "OS3FlowAuthorizationCode",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flow-authorization-code"
+          },
+          {
+            "text": "OS3Flows",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-flows"
+          },
+          {
+            "text": "OS3Header",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-header"
+          },
+          {
+            "text": "OS3Link",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-link"
+          },
+          {
+            "text": "OS3MediaType",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-media-type"
+          },
+          {
+            "text": "OS3Operation",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-operation"
+          },
+          {
+            "text": "OS3RequestBody",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-request-body"
+          },
+          {
+            "text": "OS3Paths",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-paths"
+          },
+          {
+            "text": "OS3BaseSchema",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-base-schema"
+          },
+          {
+            "text": "OS3Schema",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-schema"
+          },
+          {
+            "text": "OS3StyleParameter",
+            "link": "/api/specs/openspec/types/openspec3/type-os-3-style-parameter"
+          },
+          {
+            "text": "OS3Parameter",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-parameter"
+          },
+          {
+            "text": "OS3Response",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-response"
+          },
+          {
+            "text": "OpenSpecServerVariable",
+            "link": "/api/specs/openspec/types/openspec3/interface-open-spec-server-variable"
+          },
+          {
+            "text": "OS3Server",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-server"
+          },
+          {
+            "text": "OpenSpec3",
+            "link": "/api/specs/openspec/types/openspec3/interface-open-spec-3"
+          },
+          {
+            "text": "OS3SecurityBase",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-security-base"
+          },
+          {
+            "text": "OS3SecurityApiKey",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-security-api-key"
+          },
+          {
+            "text": "OS3SecurityOAuth2",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-security-o-auth-2"
+          },
+          {
+            "text": "OS3SecurityOpenIDConnect",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-security-open-id-connect"
+          },
+          {
+            "text": "OS3SecurityHTTP",
+            "link": "/api/specs/openspec/types/openspec3/interface-os-3-security-http"
+          },
+          {
+            "text": "OS3Security",
+            "link": "/api/specs/openspec/types/openspec3/type-os-3-security"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/passport",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PROVIDER_TYPE_PROTOCOL",
+            "link": "/api/security/passport/types/contants/const-provider-type-protocol"
+          },
+          {
+            "text": "AuthenticateOptions",
+            "link": "/api/security/passport/types/decorators/interface-authenticate-options"
+          },
+          {
+            "text": "Authenticate",
+            "link": "/api/security/passport/types/decorators/decorator-authenticate"
+          },
+          {
+            "text": "Args",
+            "link": "/api/security/passport/types/decorators/decorator-args"
+          },
+          {
+            "text": "Arg",
+            "link": "/api/security/passport/types/decorators/decorator-arg"
+          },
+          {
+            "text": "Protocol",
+            "link": "/api/security/passport/types/decorators/decorator-protocol"
+          },
+          {
+            "text": "ProtocolOptionsDecorator",
+            "link": "/api/security/passport/types/decorators/type-protocol-options-decorator"
+          },
+          {
+            "text": "AuthorizeOptions",
+            "link": "/api/security/passport/types/decorators/interface-authorize-options"
+          },
+          {
+            "text": "Authorize",
+            "link": "/api/security/passport/types/decorators/decorator-authorize"
+          },
+          {
+            "text": "UserInfo",
+            "link": "/api/security/passport/types/domain/class-user-info"
+          },
+          {
+            "text": "BeforeInstall",
+            "link": "/api/security/passport/types/interfaces/interface-before-install"
+          },
+          {
+            "text": "OnInstall",
+            "link": "/api/security/passport/types/interfaces/interface-on-install"
+          },
+          {
+            "text": "OnVerify",
+            "link": "/api/security/passport/types/interfaces/interface-on-verify"
+          },
+          {
+            "text": "PassportException",
+            "link": "/api/security/passport/types/errors/class-passport-exception"
+          },
+          {
+            "text": "PassportMessage",
+            "link": "/api/security/passport/types/errors/class-passport-message"
+          },
+          {
+            "text": "ProtocolMethods",
+            "link": "/api/security/passport/types/interfaces/interface-protocol-methods"
+          },
+          {
+            "text": "ProtocolOptions",
+            "link": "/api/security/passport/types/interfaces/interface-protocol-options"
+          },
+          {
+            "text": "PassportMiddleware",
+            "link": "/api/security/passport/types/middlewares/class-passport-middleware"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/pulse",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PulseModule",
+            "link": "/api/third-parties/pulse/types/class-pulse-module"
+          },
+          {
+            "text": "Define",
+            "link": "/api/third-parties/pulse/types/decorators/decorator-define"
+          },
+          {
+            "text": "Every",
+            "link": "/api/third-parties/pulse/types/decorators/decorator-every"
+          },
+          {
+            "text": "DefineOptions",
+            "link": "/api/third-parties/pulse/types/interfaces/interface-define-options"
+          },
+          {
+            "text": "EveryOptions",
+            "link": "/api/third-parties/pulse/types/interfaces/type-every-options"
+          },
+          {
+            "text": "PulseStore",
+            "link": "/api/third-parties/pulse/types/interfaces/interface-pulse-store"
+          },
+          {
+            "text": "Pulse",
+            "link": "/api/third-parties/pulse/types/decorators/decorator-pulse"
+          },
+          {
+            "text": "PulseService",
+            "link": "/api/third-parties/pulse/types/services/const-pulse-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/scalar",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ScalarModule",
+            "link": "/api/specs/scalar/types/class-scalar-module"
+          },
+          {
+            "text": "ROOT_DIR",
+            "link": "/api/specs/scalar/types/const-root-dir"
+          },
+          {
+            "text": "ScalarSettings",
+            "link": "/api/specs/scalar/types/interfaces/type-scalar-settings"
+          },
+          {
+            "text": "indexMiddleware",
+            "link": "/api/specs/scalar/types/middlewares/function-index-middleware"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/schema-formio",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Select",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-select"
+          },
+          {
+            "text": "anyToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-any-to-component"
+          },
+          {
+            "text": "arrayToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-array-to-component"
+          },
+          {
+            "text": "defaultToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-default-to-component"
+          },
+          {
+            "text": "enumToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-enum-to-component"
+          },
+          {
+            "text": "mapToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-map-to-component"
+          },
+          {
+            "text": "nestedToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-nested-to-component"
+          },
+          {
+            "text": "numberToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-number-to-component"
+          },
+          {
+            "text": "objectToEditGrid",
+            "link": "/api/third-parties/schema-formio/types/components/function-object-to-edit-grid"
+          },
+          {
+            "text": "panelToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-panel-to-component"
+          },
+          {
+            "text": "propertiesToComponents",
+            "link": "/api/third-parties/schema-formio/types/components/function-properties-to-components"
+          },
+          {
+            "text": "stringToComponent",
+            "link": "/api/third-parties/schema-formio/types/components/function-string-to-component"
+          },
+          {
+            "text": "FormioDataResolverCtx",
+            "link": "/api/third-parties/schema-formio/types/domain/type-formio-data-resolver-ctx"
+          },
+          {
+            "text": "FormioDataResolver",
+            "link": "/api/third-parties/schema-formio/types/domain/type-formio-data-resolver"
+          },
+          {
+            "text": "Component",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-component"
+          },
+          {
+            "text": "Conditional",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-conditional"
+          },
+          {
+            "text": "ShowWhen",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-show-when"
+          },
+          {
+            "text": "HideWhen",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-hide-when"
+          },
+          {
+            "text": "Currency",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-currency"
+          },
+          {
+            "text": "CustomClass",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-custom-class"
+          },
+          {
+            "text": "CustomConditionalCtx",
+            "link": "/api/third-parties/schema-formio/types/decorators/interface-custom-conditional-ctx"
+          },
+          {
+            "text": "CustomConditional",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-custom-conditional"
+          },
+          {
+            "text": "DataSourceJson",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-data-source-json"
+          },
+          {
+            "text": "ErrorLabel",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-error-label"
+          },
+          {
+            "text": "DataSourceUrl",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-data-source-url"
+          },
+          {
+            "text": "ErrorMessage",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-error-message"
+          },
+          {
+            "text": "Form",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-form"
+          },
+          {
+            "text": "InputTags",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-input-tags"
+          },
+          {
+            "text": "Label",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-label"
+          },
+          {
+            "text": "Hidden",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-hidden"
+          },
+          {
+            "text": "Mask",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-mask"
+          },
+          {
+            "text": "Masks",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-masks"
+          },
+          {
+            "text": "MaxWords",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-max-words"
+          },
+          {
+            "text": "MinWords",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-min-words"
+          },
+          {
+            "text": "ModalEdit",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-modal-edit"
+          },
+          {
+            "text": "Multiple",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-multiple"
+          },
+          {
+            "text": "OpenWhenEmpty",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-open-when-empty"
+          },
+          {
+            "text": "PasswordOpts",
+            "link": "/api/third-parties/schema-formio/types/decorators/interface-password-opts"
+          },
+          {
+            "text": "Password",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-password"
+          },
+          {
+            "text": "Placeholder",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-placeholder"
+          },
+          {
+            "text": "Prefix",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-prefix"
+          },
+          {
+            "text": "SelectOpts",
+            "link": "/api/third-parties/schema-formio/types/decorators/interface-select-opts"
+          },
+          {
+            "text": "Suffix",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-suffix"
+          },
+          {
+            "text": "TableView",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-table-view"
+          },
+          {
+            "text": "TextCase",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-text-case"
+          },
+          {
+            "text": "TextareaOpts",
+            "link": "/api/third-parties/schema-formio/types/decorators/interface-textarea-opts"
+          },
+          {
+            "text": "Textarea",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-textarea"
+          },
+          {
+            "text": "Tabs",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-tabs"
+          },
+          {
+            "text": "Tooltip",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-tooltip"
+          },
+          {
+            "text": "Validate",
+            "link": "/api/third-parties/schema-formio/types/decorators/decorator-validate"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/socketio",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Args",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-args"
+          },
+          {
+            "text": "SocketProviderMetadata",
+            "link": "/api/third-parties/socketio/types/class/class-socket-provider-metadata"
+          },
+          {
+            "text": "SocketSessionData",
+            "link": "/api/third-parties/socketio/types/class/class-socket-session-data"
+          },
+          {
+            "text": "Broadcast",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-broadcast"
+          },
+          {
+            "text": "BroadcastOthers",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-broadcast-others"
+          },
+          {
+            "text": "Emit",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-emit"
+          },
+          {
+            "text": "Input",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-input"
+          },
+          {
+            "text": "InputAndBroadcast",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-input-and-broadcast"
+          },
+          {
+            "text": "InputAndBroadcastOthers",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-input-and-broadcast-others"
+          },
+          {
+            "text": "InputAndEmit",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-input-and-emit"
+          },
+          {
+            "text": "IO",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-io"
+          },
+          {
+            "text": "Namespace",
+            "link": "/api/third-parties/socketio/types/decorators/type-namespace"
+          },
+          {
+            "text": "Nsp",
+            "link": "/api/third-parties/socketio/types/decorators/type-nsp"
+          },
+          {
+            "text": "Reason",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-reason"
+          },
+          {
+            "text": "Socket",
+            "link": "/api/third-parties/socketio/types/decorators/type-socket"
+          },
+          {
+            "text": "SocketEventName",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-event-name"
+          },
+          {
+            "text": "SocketFilter",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-filter"
+          },
+          {
+            "text": "SocketErr",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-err"
+          },
+          {
+            "text": "SocketMiddleware",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-middleware"
+          },
+          {
+            "text": "SocketMiddlewareError",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-middleware-error"
+          },
+          {
+            "text": "SocketNsp",
+            "link": "/api/third-parties/socketio/types/decorators/type-socket-nsp"
+          },
+          {
+            "text": "SocketReturns",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-returns"
+          },
+          {
+            "text": "SocketService",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-service"
+          },
+          {
+            "text": "SocketSession",
+            "link": "/api/third-parties/socketio/types/decorators/type-socket-session"
+          },
+          {
+            "text": "RawSocketSession",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-raw-socket-session"
+          },
+          {
+            "text": "OnNamespaceInit",
+            "link": "/api/third-parties/socketio/types/interfaces/interface-on-namespace-init"
+          },
+          {
+            "text": "SocketHandlerMetadata",
+            "link": "/api/third-parties/socketio/types/interfaces/interface-socket-handler-metadata"
+          },
+          {
+            "text": "SocketUseAfter",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-use-after"
+          },
+          {
+            "text": "SocketUseBefore",
+            "link": "/api/third-parties/socketio/types/decorators/decorator-socket-use-before"
+          },
+          {
+            "text": "SocketInjectableNsp",
+            "link": "/api/third-parties/socketio/types/interfaces/interface-socket-injectable-nsp"
+          },
+          {
+            "text": "SocketParamMetadata",
+            "link": "/api/third-parties/socketio/types/interfaces/interface-socket-param-metadata"
+          },
+          {
+            "text": "SocketProviderTypes",
+            "link": "/api/third-parties/socketio/types/interfaces/enum-socket-provider-types"
+          },
+          {
+            "text": "SocketIOServer",
+            "link": "/api/third-parties/socketio/types/services/type-socket-io-server"
+          },
+          {
+            "text": "SocketIOService",
+            "link": "/api/third-parties/socketio/types/services/class-socket-io-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/socketio-testing",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SocketClientService",
+            "link": "/api/third-parties/socketio-testing/types/services/class-socket-client-service"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/sse",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "EventStreamOpts",
+            "link": "/api/third-parties/sse/types/decorators/interface-event-stream-opts"
+          },
+          {
+            "text": "EventStream",
+            "link": "/api/third-parties/sse/types/decorators/decorator-event-stream"
+          },
+          {
+            "text": "EventStreamCtx",
+            "link": "/api/third-parties/sse/types/decorators/type-event-stream-ctx"
+          },
+          {
+            "text": "EventStreamContextOptions",
+            "link": "/api/third-parties/sse/types/domain/type-event-stream-context-options"
+          },
+          {
+            "text": "EventStreamContext",
+            "link": "/api/third-parties/sse/types/domain/class-event-stream-context"
+          },
+          {
+            "text": "EventStreamMiddleware",
+            "link": "/api/third-parties/sse/types/middlewares/class-event-stream-middleware"
+          },
+          {
+            "text": "EventStreamInterceptor",
+            "link": "/api/third-parties/sse/types/interceptors/class-event-stream-interceptor"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/stripe",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "StripeSettings",
+            "link": "/api/third-parties/stripe/types/domain/interface-stripe-settings"
+          },
+          {
+            "text": "WebhookEvent",
+            "link": "/api/third-parties/stripe/types/decorators/decorator-webhook-event"
+          },
+          {
+            "text": "StripeFactory",
+            "link": "/api/third-parties/stripe/types/services/const-stripe-factory"
+          },
+          {
+            "text": "WebhookEventOptions",
+            "link": "/api/third-parties/stripe/types/middlewares/interface-webhook-event-options"
+          },
+          {
+            "text": "WebhookEventMiddleware",
+            "link": "/api/third-parties/stripe/types/middlewares/class-webhook-event-middleware"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/swagger",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ROOT_DIR",
+            "link": "/api/specs/swagger/types/const-root-dir"
+          },
+          {
+            "text": "SwaggerModule",
+            "link": "/api/specs/swagger/types/class-swagger-module"
+          },
+          {
+            "text": "SWAGGER_UI_DIST",
+            "link": "/api/specs/swagger/types/const-swagger-ui-dist"
+          },
+          {
+            "text": "SwaggerUIOptions",
+            "link": "/api/specs/swagger/types/interfaces/interface-swagger-ui-options"
+          },
+          {
+            "text": "SwaggerOS2Settings",
+            "link": "/api/specs/swagger/types/interfaces/type-swagger-os-2-settings"
+          },
+          {
+            "text": "SwaggerOS3Settings",
+            "link": "/api/specs/swagger/types/interfaces/type-swagger-os-3-settings"
+          },
+          {
+            "text": "SwaggerSettings",
+            "link": "/api/specs/swagger/types/interfaces/type-swagger-settings"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/temporal",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "TemporalModule",
+            "link": "/api/third-parties/temporal/types/class-temporal-module"
+          },
+          {
+            "text": "PROVIDER_TYPE_TEMPORAL",
+            "link": "/api/third-parties/temporal/types/const-provider-type-temporal"
+          },
+          {
+            "text": "Activity",
+            "link": "/api/third-parties/temporal/types/decorators/decorator-activity"
+          },
+          {
+            "text": "Temporal",
+            "link": "/api/third-parties/temporal/types/decorators/decorator-temporal"
+          },
+          {
+            "text": "TEMPORAL_STORE_KEY",
+            "link": "/api/third-parties/temporal/types/interfaces/const-temporal-store-key"
+          },
+          {
+            "text": "ActivityOptions",
+            "link": "/api/third-parties/temporal/types/interfaces/interface-activity-options"
+          },
+          {
+            "text": "TemporalStore",
+            "link": "/api/third-parties/temporal/types/interfaces/interface-temporal-store"
+          },
+          {
+            "text": "TemporalConnection",
+            "link": "/api/third-parties/temporal/types/services/const-temporal-connection"
+          },
+          {
+            "text": "TemporalClient",
+            "link": "/api/third-parties/temporal/types/services/const-temporal-client"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/terminus",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "TerminusModule",
+            "link": "/api/third-parties/terminus/types/class-terminus-module"
+          },
+          {
+            "text": "Health",
+            "link": "/api/third-parties/terminus/types/decorators/decorator-health"
+          },
+          {
+            "text": "TerminusSettings",
+            "link": "/api/third-parties/terminus/types/interfaces/type-terminus-settings"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/testcontainers-mongo",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "startMongoServer",
+            "link": "/api/orm/testcontainers-mongo/types/services/service-start-mongo-server"
+          },
+          {
+            "text": "stopMongoServer",
+            "link": "/api/orm/testcontainers-mongo/types/services/service-stop-mongo-server"
+          },
+          {
+            "text": "getMongoUrl",
+            "link": "/api/orm/testcontainers-mongo/types/services/service-get-mongo-url"
+          },
+          {
+            "text": "getMongoConnectionOptions",
+            "link": "/api/orm/testcontainers-mongo/types/services/service-get-mongo-connection-options"
+          },
+          {
+            "text": "getMongoConnectionsOptions",
+            "link": "/api/orm/testcontainers-mongo/types/services/service-get-mongo-connections-options"
+          },
+          {
+            "text": "TestContainersMongo",
+            "link": "/api/orm/testcontainers-mongo/types/services/class-test-containers-mongo"
+          },
+          {
+            "text": "setup",
+            "link": "/api/orm/testcontainers-mongo/types/setup/function-setup"
+          },
+          {
+            "text": "teardown",
+            "link": "/api/orm/testcontainers-mongo/types/setup/function-teardown"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/typegraphql",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ResolverControllerOptions",
+            "link": "/api/graphql/typegraphql/types/decorators/interface-resolver-controller-options"
+          },
+          {
+            "text": "ResolverController",
+            "link": "/api/graphql/typegraphql/types/decorators/decorator-resolver-controller"
+          },
+          {
+            "text": "ContextMiddleware",
+            "link": "/api/graphql/typegraphql/types/middlewares/const-context-middleware"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/vike",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ViteModule",
+            "link": "/api/third-parties/vike/types/class-vite-module"
+          },
+          {
+            "text": "Vite",
+            "link": "/api/third-parties/vike/types/decorators/decorator-vite"
+          },
+          {
+            "text": "ViteConfig",
+            "link": "/api/third-parties/vike/types/interfaces/type-vite-config"
+          },
+          {
+            "text": "ViteRendererMiddleware",
+            "link": "/api/third-parties/vike/types/middlewares/class-vite-renderer-middleware"
+          },
+          {
+            "text": "VitePageProps",
+            "link": "/api/third-parties/vike/types/interfaces/type-vite-page-props"
+          },
+          {
+            "text": "ViteRenderContext",
+            "link": "/api/third-parties/vike/types/interfaces/interface-vite-render-context"
+          },
+          {
+            "text": "ViteService",
+            "link": "/api/third-parties/vike/types/services/class-vite-service"
+          },
+          {
+            "text": "VITE_SERVER",
+            "link": "/api/third-parties/vike/types/services/const-vite-server"
+          }
+        ]
+      }
+    ]
+  }
+]
