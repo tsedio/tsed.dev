@@ -1,0 +1,22 @@
+---
+title: attachLogger from @tsed/di
+description: api documentation of attachLogger from @tsed/di
+meta:
+ - name: keywords
+   description: api typescript node.js documentation attachLogger function
+---
+# attachLogger - @tsed/di
+
+## Usage
+
+```typescript
+import { attachLogger } from "@tsed/di";
+```
+
+> See [/packages/di/src/common/utils/attachLogger.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/di/src/common/utils/attachLogger.ts#L0-L0).
+
+## Overview
+
+```ts
+function attachLogger($log: DILogger): void;
+```

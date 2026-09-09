@@ -1,0 +1,33 @@
+---
+url: /api/security/passport/types/decorators/interface-authorize-options.md
+description: api documentation of AuthorizeOptions from @tsed/passport
+---
+
+## Usage
+
+```typescript
+import { AuthorizeOptions } from "@tsed/passport";
+```
+
+> See [/packages/security/passport/src/decorators/authorize.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/security/passport/src/decorators/authorize.ts#L0-L0).
+
+## Overview
+
+```ts
+interface AuthorizeOptions extends AuthenticateOptions {
+    security?: Record<string, string[]>;
+    originalUrl?: boolean;
+}
+```
+
+## security
+
+```ts
+security?: Record<string, string[]>;
+```
+
+## originalUrl
+
+```ts
+originalUrl?: boolean;
+```

@@ -1,0 +1,50 @@
+---
+url: /api/di/types/common/fn/const-controller.md
+description: api documentation of controller from @tsed/di
+---
+
+## Usage
+
+```typescript
+import { controller } from "@tsed/di";
+```
+
+> See [/packages/di/src/common/fn/injectable.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/di/src/common/fn/injectable.ts#L0-L0).
+
+## Overview
+
+```ts
+const controller: {
+    <Token extends import("@tsed/core").Type>(token: Token, options?: Partial<ProviderOpts>): TsED.ClassProviderBuilder<Token>;
+    <Token extends unknown>(token: Token, options?: Partial<ProviderOpts>): TsED.ProviderBuilder<Token>;
+};
+```
+
+## Description
+
+Fluent builder for registering controller providers.
+
+Specialized version of `injectable` that automatically sets the provider type to `CONTROLLER`
+and supports controller-specific options like middlewares.
+
+### Usage
+
+```typescript
+import {controller} from "@tsed/di";
+
+controller(UsersController)
+  .middlewares({useBefore: [AuthMiddleware]})
+  .build();
+```
+
+##
+
+```ts
+<Token extends import("@tsed/core").Type>(token: Token, options?: Partial<ProviderOpts>): TsED.ClassProviderBuilder<Token>;
+```
+
+##
+
+```ts
+<Token extends unknown>(token: Token, options?: Partial<ProviderOpts>): TsED.ProviderBuilder<Token>;
+```

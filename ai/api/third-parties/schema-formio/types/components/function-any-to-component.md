@@ -1,0 +1,22 @@
+---
+title: anyToComponent from @tsed/schema-formio
+description: api documentation of anyToComponent from @tsed/schema-formio
+meta:
+ - name: keywords
+   description: api typescript node.js documentation anyToComponent function
+---
+# anyToComponent - @tsed/schema-formio
+
+## Usage
+
+```typescript
+import { anyToComponent } from "@tsed/schema-formio";
+```
+
+> See [/packages/third-parties/schema-formio/src/components/anyToComponent.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/third-parties/schema-formio/src/components/anyToComponent.ts#L0-L0).
+
+## Overview
+
+```ts
+function anyToComponent(schema: any, options: any): any;
+```

@@ -1,0 +1,27 @@
+---
+title: Namespace from @tsed/socketio
+description: api documentation of Namespace from @tsed/socketio
+meta:
+ - name: keywords
+   description: api typescript node.js documentation Namespace type
+---
+# Namespace - @tsed/socketio
+
+## Usage
+
+```typescript
+import { Namespace } from "@tsed/socketio";
+```
+
+> See [/packages/third-parties/socketio/src/decorators/nsp.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/third-parties/socketio/src/decorators/nsp.ts#L0-L0).
+
+## Overview
+
+```ts
+type Namespace = NamespaceType;
+export type Nsp = NamespaceType;
+
+export function Nsp(target: any, propertyKey?: string, index?: number): any;
+
+export function Namespace(target: Object, propertyKey?: string, index?: number): void | ((target: Object, propertyKey: string) => void);
+```

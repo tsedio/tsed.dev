@@ -1,0 +1,30 @@
+---
+url: /api/third-parties/temporal/types/interfaces/interface-temporal-store.md
+description: api documentation of TemporalStore from @tsed/temporal
+---
+
+## Usage
+
+```typescript
+import { TemporalStore } from "@tsed/temporal";
+```
+
+> See [/packages/third-parties/temporal/src/interfaces/TemporalStore.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/third-parties/temporal/src/interfaces/TemporalStore.ts#L0-L0).
+
+## Overview
+
+```ts
+interface TemporalStore {
+    activities?: {
+        [propertyKey: string]: ActivityOptions;
+    };
+}
+```
+
+## activities
+
+```ts
+activities?: {
+     [propertyKey: string]: ActivityOptions;
+ };
+```

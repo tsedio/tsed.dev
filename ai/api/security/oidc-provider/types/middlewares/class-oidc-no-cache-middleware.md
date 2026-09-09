@@ -1,0 +1,32 @@
+---
+title: OidcNoCacheMiddleware from @tsed/oidc-provider
+description: api documentation of OidcNoCacheMiddleware from @tsed/oidc-provider
+meta:
+ - name: keywords
+   description: api typescript node.js documentation OidcNoCacheMiddleware class
+---
+# OidcNoCacheMiddleware - @tsed/oidc-provider
+
+## Usage
+
+```typescript
+import { OidcNoCacheMiddleware } from "@tsed/oidc-provider";
+```
+
+> See [/packages/security/oidc-provider/src/middlewares/OidcNoCacheMiddleware.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/security/oidc-provider/src/middlewares/OidcNoCacheMiddleware.ts#L0-L0).
+
+## Overview
+
+```ts
+class OidcNoCacheMiddleware implements MiddlewareMethods {
+    use(ctx: Context): void;
+}
+```
+
+<!-- Members -->
+
+## use
+
+```ts
+use(ctx: Context): void;
+```

@@ -1,0 +1,28 @@
+---
+title: PromptProps from @tsed/platform-mcp
+description: api documentation of PromptProps from @tsed/platform-mcp
+meta:
+ - name: keywords
+   description: api typescript node.js documentation PromptProps type
+---
+# PromptProps - @tsed/platform-mcp
+
+## Usage
+
+```typescript
+import { PromptProps } from "@tsed/platform/platform-mcp/src/common/fn/definePrompt";
+```
+
+> See [/packages/platform/platform-mcp/src/common/fn/definePrompt.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/platform/platform-mcp/src/common/fn/definePrompt.ts#L0-L0).
+
+## Overview
+
+```ts
+type PromptProps<Args = any> = FnPromptProps<Args> | ClassPromptProps<Args>;
+```
+
+<!-- Description -->
+
+## Description
+
+Union of prompt configuration accepted by {@link definePrompt}, supporting both functional and class-based handlers.

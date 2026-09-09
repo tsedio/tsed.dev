@@ -1,0 +1,33 @@
+---
+url: /api/third-parties/sse/types/interceptors/class-event-stream-interceptor.md
+description: api documentation of EventStreamInterceptor from @tsed/sse
+---
+
+## Usage
+
+```typescript
+import { EventStreamInterceptor } from "@tsed/sse";
+```
+
+> See [/packages/third-parties/sse/src/interceptors/EventStreamInterceptor.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/third-parties/sse/src/interceptors/EventStreamInterceptor.ts#L0-L0).
+
+## Overview
+
+```ts
+class EventStreamInterceptor implements InterceptorMethods {
+    protected $ctx: PlatformContext;
+    intercept(context: InterceptorContext): Promise<unknown>;
+}
+```
+
+## protected $ctx
+
+```ts
+protected $ctx: PlatformContext;
+```
+
+## intercept
+
+```ts
+intercept(context: InterceptorContext): Promise<unknown>;
+```

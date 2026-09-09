@@ -1,0 +1,23 @@
+---
+url: >-
+  /api/platform/platform-params/types/decorators/decorator-use-param-expression.md
+description: api documentation of UseParamExpression from @tsed/platform-params
+---
+
+## Usage
+
+```typescript
+import { UseParamExpression } from "@tsed/platform-params";
+```
+
+> See [/packages/platform/platform-params/src/decorators/useParamExpression.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/platform/platform-params/src/decorators/useParamExpression.ts#L0-L0).
+
+## Overview
+
+```ts
+function UseParamExpression(expression?: string): ParameterDecorator;
+```
+
+## Description
+
+Get data from a path inside the given object

@@ -1,0 +1,65 @@
+---
+url: >-
+  /api/third-parties/socketio/types/decorators/decorator-socket-middleware-error.md
+description: api documentation of SocketMiddlewareError from @tsed/socketio
+---
+
+## Usage
+
+```typescript
+import { SocketMiddlewareError } from "@tsed/socketio";
+```
+
+> See [/packages/third-parties/socketio/src/decorators/socketMiddlewareError.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/third-parties/socketio/src/decorators/socketMiddlewareError.ts#L0-L0).
+
+## Overview
+
+```ts
+function SocketMiddlewareError(): Function;
+```
+
+## Description
+
+Declare a new SocketMiddlewareError.
+
+### Example
+
+A middleware can be also used on a `SocketService` either on a class or on a method.
+
+Here an example of a middleware:
+
+```typescript
+import {SocketMiddlewareError, SocketErr, Socket, Args} from "@tsed/socketio";
+
+@SocketMiddlewareError()
+export class ErrorHandlerSocketMiddleware {
+   async use(@SocketEventName, @SocketErr err: any, @Socket socket: SocketIO.Socket) {
+       console.error(err);
+       socket.emit("error", {message: "An error has occured"})
+   }
+}
+```
+
+Then:
+
+```typescript
+import {SocketService, SocketUseAfter, SocketUseBefore, Emit, Input, Args} from "@tsed/socketio";
+import {ErrorHandlerSocketMiddleware} from "../middlewares.js";
+import {User} from "../models/User.js";
+
+@SocketService("/my-namespace")
+@SocketUseAfter(ErrorHandlerSocketMiddleware) // global version
+export class MySocketService {
+
+   @Input("eventName")
+   @Emit("responseEventName") // or Broadcast or BroadcastOthers
+   @SocketUseAfter(ErrorHandlerSocketMiddleware)
+   async myMethod(@Args(0) userName: User) {
+
+       console.log(user);
+       throw new Error("Error");
+
+       return user;
+   }
+}
+```

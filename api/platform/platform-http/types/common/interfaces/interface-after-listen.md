@@ -1,0 +1,26 @@
+---
+url: /api/platform/platform-http/types/common/interfaces/interface-after-listen.md
+description: api documentation of AfterListen from @tsed/platform-http
+---
+
+## Usage
+
+```typescript
+import { AfterListen } from "@tsed/platform-http";
+```
+
+> See [/packages/platform/platform-http/src/common/interfaces/AfterListen.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/platform/platform-http/src/common/interfaces/AfterListen.ts#L0-L0).
+
+## Overview
+
+```ts
+interface AfterListen {
+    $afterListen(): void | Promise<any>;
+}
+```
+
+## $afterListen
+
+```ts
+$afterListen(): void | Promise<any>;
+```

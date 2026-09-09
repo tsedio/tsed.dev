@@ -1,0 +1,88 @@
+---
+url: /api/specs/schema/types/decorators/common/const-min-length.md
+description: api documentation of MinLength from @tsed/schema
+---
+
+## Usage
+
+```typescript
+import { MinLength } from "@tsed/schema";
+```
+
+> See [/packages/specs/schema/src/decorators/common/minLength.ts](https://github.com/tsedio/tsed/blob/v8.38.4/packages/specs/schema/src/decorators/common/minLength.ts#L0-L0).
+
+## Overview
+
+```ts
+const MinLength: import("../../utils/withErrorMsg.js").ErrorChainedDecorator<(minLength: number) => (...args: any[]) => any>;
+```
+
+## Description
+
+A string instance is valid against this keyword if its length is greater than, or equal to, the value of this keyword.
+
+The length of a string instance is defined as the number of its characters as defined by [RFC 7159](http://json-schema.org/latest/json-schema-validation.html#RFC7159).
+
+::: warning
+The value of minLength MUST be a non-negative integer.
+:::
+
+::: tip
+Omitting this keyword has the same behavior as a value of 0.
+:::
+
+::: warning
+For v6 user, use @@MinLength@@ from @tsed/schema instead of @tsed/platform-http.
+:::
+
+## Example
+
+### With primitive type
+
+```typescript
+class Model {
+   @MinLength(10)
+   property: number;
+}
+```
+
+Will produce:
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "property": {
+      "type": "string",
+      "maxLength": 10
+    }
+  }
+}
+```
+
+### With array type
+
+```typescript
+class Model {
+   @MinLength(10)
+   @CollectionOf(String)
+   property: string[];
+}
+```
+
+Will produce:
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "property": {
+      "type": "array",
+      "items": {
+         "type": "string",
+         "minLength": 10
+      }
+    }
+  }
+}
+```
