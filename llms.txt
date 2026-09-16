@@ -1,0 +1,159 @@
+# Ts.ED
+
+> A modern framework written in TypeScript
+
+A flexible framework on top of Express.js/Koa.js/Fastify.js with a fast learning curve, designed to enhance the developer experience
+
+## Table of Contents
+
+### Introduction
+
+- [What is Ts.ED?](/introduction/what-is-tsed.md): Ts.ED is a framework for building server-side and scalable applications for Node.js environment.
+- [What's new in v8 ?](/introduction/what-is-news-v8.md): What's new in v8?
+- [Capabilities](/introduction/capabilities.md): Discover the capabilities of Ts.ED, a Node.js and TypeScript framework on top of Express/Koa.js.
+- [Getting Started](/introduction/getting-started.md): Start your first Ts.ED project with the CLI or clone a starter project.
+- [Create your first controller](/introduction/create-your-first-controller.md): Create your first controller.
+- [LLM prompts and AI IDE setup](/introduction/ai/develop-with-ai.md): Configure any IDE or AI agent to generate correct Ts.ED application code using the agents.md standard and the official Ts.ED documentation.
+- [Cheat Sheet](/introduction/cheat-sheet.md): Quick-reference examples for configuring and building Ts.ED applications.
+
+### Migration
+
+- [Migrate from v7 to v8](/introduction/migrate-from-v7.md): Migrate Ts.ED application from v7 to v8.
+- [Migrate from v6](/introduction/migrate-from-v6.md): Migrate Ts.ED application from v6 to v7.
+- [Migrate from Express.js](/introduction/migrate-from-express.md): Migrate Ts.ED application from Express.js.
+
+### Configuration
+
+- [Configuration](/docs/configuration.md): Documentation over the server configuration.
+- [Configuration sources](/docs/configuration/configuration-sources.md): Formerly known as ConfigSource, this module provides a way to load configuration from different sources like environment variables, JSON files, YAML files,…
+- [Server Options](/docs/configuration/server-options.md): Documentation over the server configuration.
+- [Express.js](/docs/configuration/express.md): To configure the Express server, you can use the express property in the @Configuration decorator.
+- [Koa.js](/docs/configuration/koa.md): Configure a Ts.ED application to run on the Koa platform.
+- [Fastify.js](/docs/configuration/fastify.md): Configure a Ts.ED application to run on the Fastify platform.
+
+### Fundamentals
+
+- [Controllers](/docs/controllers.md): Discover how to create controllers and Rest API in Ts.ED to handle incoming requests and return responses to the client.
+- [Routing Path Conventions](/docs/routing.md): Learn how Ts.ED manages routing paths, including wildcards, optional parameters, and other path conventions.
+- [DI & Providers](/docs/providers.md): Discover Ts.ED Providers / DI.
+- [Model](/docs/model.md): Discover how to create a model with Ts.ED.
+- [JsonMapper](/docs/json-mapper.md): Discover how to use the @tsed/json-mapper package to map a plain object to a model and a model to a plain object.
+- [Middlewares](/docs/middlewares.md): Middleware is similar to the Express middleware with the difference that it's a class and you can use the IoC to inject other services on its constructor.
+- [Pipes](/docs/pipes.md): Discover Pipes in Ts.ED.
+- [Interceptors](/docs/interceptors.md): Discover how to use interceptors in Ts.ED to bind extra logic before/after method execution, transform the result returned from a function, transform the…
+- [Validation](/docs/validation.md): Use Ts.ED validation system to validate your data.
+- [Authentication](/docs/authentication.md): Discover how to use authentication in Ts.ED to protect your route with your own strategy.
+- [Hooks](/docs/hooks.md): Discover how to use hooks in Ts.ED to subscribe to lifecycle events and perform actions when they occur.
+- [Response Filter](/docs/response-filter.md): Discover response filters provided by Ts.ED framework.
+- [Exceptions](/docs/exceptions.md): Documentation over Http Exceptions provided by Ts.ED framework.
+- [Logger](/docs/logger.md): Documentation over Logger by Ts.ED framework.
+- [Context](/docs/request-context.md): Ts.ED provides an utility to get request, response, to store and share data along all middlewares/endpoints during a request with PlatformContext.
+- [Testing](/docs/testing.md): Learn how to test your Ts.ED application with Jest and Vitest.
+
+### Advanced
+
+- [Cache](/docs/cache.md): Documentation over Cache management provided by Ts.ED framework.
+- [Platform API](/docs/platform-api.md): Ts.ED uses the Platform API to create an application.
+- [Creating a Custom Platform Adapter](/docs/platform-adapter.md): Learn how to create a custom platform adapter for Ts.ED framework.
+- [Platform Serverless](/docs/platform-serverless.md): Guide to deploy your Ts.ED application on AWS.
+- [Serverless HTTP](/docs/platform-serverless-http.md): Guide to deploy your Ts.ED application on AWS.
+- [Model Context Protocol (MCP)](/docs/mcp.md): Learn how to expose Model Context Protocol (MCP) endpoints with Ts.ED using @tsed/platform-mcp, including functional helpers, decorators, and CLI references.
+- [Command](/docs/command.md): Documentation over Command provided by Ts.ED framework.
+- [Custom endpoint decorator](/docs/custom-endpoint-decorators.md): Custom endpoint decorator could be interesting when you want to handle a request and perform actions before or after the endpoint method.
+- [Custom providers](/docs/custom-providers.md): Learn how to create custom providers in Ts.ED to bind something directly to the IoC container.
+- [Templating](/docs/templating.md): Use template engine with Ts.ED by using decorators.
+- [Session & cookies](/docs/session.md): Ts.ED provides two decorators to get Session and Cookies values in your controller.
+- [Upload files](/docs/upload-files.md): Upload files with Ts.ED by using decorators.
+- [Customize 404](/docs/not-found-page.md): Customize the 404 response error when a resource or route isn't resolved by the router in Ts.ED.
+- [Untitled](/api.md): Api Reference of Ts.ED.
+
+### Links
+
+- [Untitled](/plugins.md): Discover our list of plugins to extends your Ts.ED project.
+- [Installing a Premium Plugin](/plugins/premium/install-premium-plugins.md): Installation instructions for premium plugins in Ts.ED.
+- [Create your own plugins](/plugins/create-your-own-plugins.md): Discover our list of plugins to extends your Ts.ED project.
+
+### Premium ConfigSource
+
+- [AWS Secrets Config Source](/plugins/premium/config-source/aws-secrets.md): A powerful plugin for Ts.ED to manage your application configuration with AWS Secrets manager and sync changes in real time.
+- [IORedis Config Source](/plugins/premium/config-source/ioredis.md): A powerful plugin for Ts.ED to manage your application configuration in Redis and sync changes in real time.
+- [Mongo Config Source](/plugins/premium/config-source/mongo.md): A powerful plugin for Ts.ED to manage your application configuration in MongoDB and sync changes in real time.
+- [Postgres Config Source](/plugins/premium/config-source/postgres.md): A powerful plugin for Ts.ED to manage your application configuration in MongoDB and sync changes in real time.
+- [Vault Config Source](/plugins/premium/config-source/vault.md): A robust Ts.ED plugin for dynamic application configuration stored securely in HashiCorp Vault.
+
+### Premium TestContainers
+
+- [Redis TestContainers](/plugins/premium/testcontainers/redis.md): A Ts.ED package to help you easily test your code using the power of TestContainers with Redis.
+- [LocalStack TestContainers](/plugins/premium/testcontainers/localstack.md): A package for the Ts.ED framework to help you test your code using the TestContainers library with LocalStack.
+- [Mongo TestContainers](/plugins/premium/testcontainers/mongo.md): A package for the Ts.ED framework to help you test your code using the TestContainers library.
+- [Postgres TestContainers](/plugins/premium/testcontainers/postgres.md): A package for the Ts.ED framework to help you test your code using the TestContainers library.
+- [Vault TestContainers](/plugins/premium/testcontainers/vault.md): A Ts.ED package to help you easily test your code using the power of TestContainers with HashiCorp Vault.
+
+### Authentication & Security
+
+- [Keycloak](/tutorials/keycloak.md): Use Keycloak with Express, TypeScript and Ts.ED to secure your application.
+- [OIDC](/tutorials/oidc.md): Use oidc-provider with Express.js/Koa.js, TypeScript and Ts.ED.
+- [Passport.js](/tutorials/passport.md): Use Passport.js with Express, TypeScript and Ts.ED.
+
+### API & Documentation
+
+- [GraphQL](/tutorials/graphql.md): Use Apollo, Nexus or Type-graphql with Ts.ED framework.
+- [Scalar](/tutorials/scalar.md): Use Scalar to describe a Rest API with Ts.ED.
+- [Schema Formio](/tutorials/schema-formio.md): This tutorial shows how to use the @tsed/schema-formio package to generate Form.io compatible schemas from TypeScript classes using decorators.
+- [Swagger](/tutorials/swagger.md): Use Swagger UI/OpenAPI with Ts.ED.
+
+### ORM
+
+- [Adapters](/tutorials/adapters.md): Use @tsed/adapters to build persistence adapters in Ts.ED.
+- [Adapters IORedis](/tutorials/adapters-ioredis.md): Use @tsed/adapters-ioredis with Ts.ED.
+- [Adapters Redis](/tutorials/adapters-redis.md): Use @tsed/adapters-redis with Ts.ED.
+- [IORedis](/tutorials/ioredis.md): Use IORedis with Express, TypeScript and Ts.ED.
+- [MikroORM](/tutorials/mikroorm.md): Use MikroORM with Ts.ED.
+- [Mongoose](/tutorials/mongoose.md): Use Mongoose with Express, TypeScript and Ts.ED.
+- [Objection.js](/tutorials/objection.md): Use Objection.js with Express, TypeScript and Ts.ED.
+- [Prisma](/tutorials/prisma.md): Use Prisma with Express, TypeScript and Ts.ED.
+- [Redis](/tutorials/redis.md): Use Redis (node-redis) with Express, TypeScript and Ts.ED.
+- [TypeORM](/tutorials/typeorm.md): Documentation over TypeORM provided by Ts.ED framework.
+
+### Orchestration & Workflow
+
+- [Agenda](/tutorials/agenda.md): Use Agenda with Express/Koa, TypeScript and Ts.ED.
+- [BullMQ](/tutorials/bullmq.md): Easy to use BullMQ integration for Ts.ED.
+- [Pulse](/tutorials/pulse.md): Use Pulse cron with Express/Koa, TypeScript and Ts.ED.
+- [Temporal](/tutorials/temporal.md): Use Temporal.io with Express/Koa, TypeScript and Ts.ED.
+
+### Testing
+
+- [Jest](/tutorials/jest.md): This guide will take you through the process of installing Jest, a popular JavaScript testing framework, on an existing Ts.ED project.
+- [Vitest](/tutorials/vitest.md): Guide to install Vitest with Ts.ED.
+
+### Third-parties
+
+- [Server-sent events](/tutorials/server-sent-events.md): Guide to implement Server-sent events with Ts.ED.
+- [Serverless](/tutorials/serverless.md): Guide to deploy your Ts.ED application on Serverless.
+- [Socket.io](/tutorials/socket-io.md): Use Socket.io with Express, TypeScript and Ts.ED.
+- [Stripe](/tutorials/stripe.md): Use Stripe with Express.js/Koa.js, TypeScript and Ts.ED.
+- [Terminus](/tutorials/terminus.md): Use Terminus with Express.js/Koa.js, TypeScript and Ts.ED.
+- [Vike](/tutorials/vike.md): Use Vike with Ts.ED.
+
+
+
+
+
+### Other
+
+- [AJV](/tutorials/ajv.md): Use AJV with Express, TypeScript and Ts.ED.
+- [Apollo](/tutorials/graphql-apollo.md): Use Apollo, Nexus or Type-graphql with Ts.ED framework.
+- [Contributing](/contributing.md): First, thank you for considering contributing to Ts.ED!
+- [Getting Started](/getting-started.md): Start your first Ts.ED project with the CLI or clone a starter project.
+- [GraphQL Nexus](/tutorials/graphql-nexus.md): GraphQL Nexus' APIs were designed with type-safety in mind.
+- [GraphQL WS](/tutorials/graphql-ws.md): GraphQL Websocket allows you to use the subscription feature of GraphQL using the Websocket transport protocol.
+- [GraphQL WS](/tutorials/snippets/graphql/graphql-ws.md): GraphQL Websocket allows you to use the subscription feature of GraphQL using the Websocket transport protocol.
+- [Injection scopes](/docs/injection-scopes.md): Discover how to use injection scopes in Ts.ED to define the lifecycle and visibility of a provider.
+- [Lazy-loading provider](/docs/providers-lazy-loading.md): Documentation over Providers / DI provided by Ts.ED framework.
+- [Load configuration from file](/docs/configuration/load-configuration-from-file.md): Ts.ED doesn't provide solution to load configuration from files.
+- [Serve files](/docs/serve-files.md): Serve statics files with Ts.ED by using decorators.
+- [Serverless HTTP](/tutorials/aws.md): Guide to deploy your Ts.ED application on AWS.
+- [TypeGraphQL](/tutorials/graphql-typegraphql.md): Use Type-graphql with Ts.ED framework.
+- [Untitled](/more/team.md): Meet the maintainers and contributors behind the Ts.ED project.
+- [Untitled](/warehouse.md): Discover our list of plugins to extends your Ts.ED project.
