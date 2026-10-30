@@ -1,0 +1,62 @@
+---
+url: /docs/configuration/express.md
+description: >-
+  To configure the Express server, you can use the express property in the
+  @Configuration decorator.
+---
+
+# Express.js
+
+To configure the Express server, you can use the `express` property in the `@Configuration` decorator.
+
+::: tip Note
+To create Ts.ED application based on Express.js, use [Ts.ED CLI](/introduction/getting-started.md).
+:::
+
+## express.bodyParser
+
+This option let you configure the default bodyParser used by Ts.ED to parse the body request:
+
+```typescript
+@Configuration({
+  express: {
+    version: "v5", // to force v5 feature, if Ts.ED doesn't detect it automatically
+    bodyParser: {
+      text: {},
+      json: {},
+      urlencoded: {
+        extended: true // required
+      }
+    }
+  }
+})
+class Server {}
+```
+
+## express.router
+
+The global configuration for the `Express.Router`. See
+express [documentation](http://expressjs.com/en/api.html#express.router).
+
+## statics
+
+* type: @@PlatformStaticsOptions@@
+
+Object to mount all directories under an endpoint.
+
+## Use custom Express app
+
+You can use a custom Express app using the `app` server options:
+
+```typescript
+import {Configuration} from "@tsed/di";
+import "@tsed/platform-express";
+import {createExpressApp} from "./app.js";
+
+@Configuration({
+  express: {
+    app: createExpressApp()
+  }
+})
+export class Server {}
+```
